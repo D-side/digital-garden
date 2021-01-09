@@ -177,10 +177,12 @@
     const height = Number(svg.attr("height"));
     let zoomLevel = 1;
 
+    const activeForceStrength = (d) => isCurrentPath(d.path) ? 10 : 1;
+
     const simulation = d3
       .forceSimulation(nodesData)
-      .force("forceX", d3.forceX().x(width / 2))
-      .force("forceY", d3.forceY().y(height / 2))
+      .force("forceX", d3.forceX().x(width / 2).strength(activeForceStrength))
+      .force("forceY", d3.forceY().y(height / 2).strength(activeForceStrength))
       .force("charge", d3.forceManyBody())
       .force(
         "link",
@@ -188,8 +190,8 @@
           .forceLink(linksData)
           .id((d) => d.id)
           .distance(70)
+          .strength(1.5)
       )
-      .force("center", d3.forceCenter(width / 2, height / 2))
       .force("collision", d3.forceCollide().radius(80))
       .stop();
 
