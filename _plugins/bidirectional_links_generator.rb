@@ -3,6 +3,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
   def generate(site)
     graph_nodes = []
     graph_edges = []
+    graph_excluded_nodes = Set.new
 
     all_notes = site.collections['notes'].docs
     all_pages = site.pages
@@ -63,6 +64,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
 
     # Identify note backlinks and add them to each note
     all_notes.each do |current_note|
+      next if current_note.data["meta"]
       # Nodes: Jekyll
       notes_linking_to_current_note = all_notes.filter do |e|
         e.content.include?(current_note.url)
@@ -80,6 +82,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
 
       # Edges: Graph
       notes_linking_to_current_note.each do |n|
+        next if n.data["meta"]
         graph_edges << {
           source: note_id_from_note(n),
           target: note_id_from_note(current_note),
