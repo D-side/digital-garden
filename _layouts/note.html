@@ -49,6 +49,6 @@ layout: default
 
 <hr>
 
-<h3>🗺 You are here:</h3>
+<h3>🗺 {% if page.meta %}This is a secret page! Sh-h, don't tell anyone.{% else %}You are here:{% endif %}</h3>
 
 {% include notes_graph.html %}
