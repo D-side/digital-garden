@@ -121,7 +121,7 @@ nav {
   }
 }
 
-.backlink-box {
+.backlink-box, .toc {
   background: $color-box-background;
   padding: 1em;
   border-radius: $border-radius;
@@ -147,4 +147,29 @@ code {
 
 .faded {
   opacity: 0.6;
+}
+
+.toc {
+  & ul {
+    list-style-type: none;
+    // border-left: 2px solid $color-border;
+    padding-left: 0.5em;
+    border-left: 2px solid transparent;
+    //background-color: rgba($color: black, $alpha: 0.05);
+    // background: linear-gradient(
+    //   90deg,
+    //   rgba($color: black, $alpha: 0.05),
+    //   rgba($color: black, $alpha: 0) 25%
+    // );
+    li {
+      a {
+        display: block;
+        border-bottom: none;
+      }
+    }
+    &:hover {
+      border-left: 2px solid $color-border;
+    }
+  }
+  font-size: 0.9em;
 }
