@@ -84,16 +84,23 @@ a {
     color: black !important;
     background: #fffaf1;
   }
-  &:after {
-    position: relative;
-    top: -0.5em;
-    font-size: 0.7em;
-    content: "↗";
-    color: #aaaaaa;
-  }
-  &.internal-link:after {
-    content: "";
-  }
+  // As much as I like these, they're going
+  // out of control with how much I use links in the design
+  // &:after {
+  //   position: relative;
+  //   top: -0.5em;
+  //   font-size: 0.7em;
+  //   content: "↗";
+  //   color: #aaaaaa;
+  // }
+  // &.internal-link:after {
+  //   content: "";
+  // }
+  // &.anchor:after {
+  //   content: "";
+  //   border-bottom: none;
+  //   opacity: 0.4;
+  // }
 }
 
 *:focus {

@@ -18,7 +18,7 @@ That's probably not what you actually want to know. It's not just a generic *"I 
 
 If it is, I give you one more chance: ask yourself **why** you want to learn to program. If nothing comes up still, I actually have a very specific and short answer for you.
 
-## **`don't`**
+### **`don't`**
 
 Because if you're learning something that doesn't have a purpose behind it, chances are you'll soon forget it and the time you spent learning was mostly _wasted_.
 
@@ -26,11 +26,11 @@ Not happy with this answer? Then there may be a reason behind that intention tha
 
 ## If there is a purpose
 
-### Specific project (or type of project)
+### Specific project
 
 This is the easiest case to handle.
 
-#### Specific product
+#### Fine-tuning a thing
 
 Got a very particular piece of hardware or software that accepts custom programs but doesn't do *exactly* what you want? Ask around, see how to get started with that particular thing. In such a specific area there is usually *one* preferred language, and the community around whatever it is will usually point you to it.
 
