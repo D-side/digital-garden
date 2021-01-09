@@ -10,4 +10,4 @@ I also try to maintain the capabilities of "dumb hardware" in case some of the "
 
 My apartment is controlled by [Home Assistant](https://home-assistant.io/).
 
-*TODO: list some hardware I'm using and how I set it up.*
+*[[TODO]]: list some hardware I'm using and how I set it up.*

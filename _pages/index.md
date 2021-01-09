@@ -11,6 +11,7 @@ permalink: /
 
 ## ⭐ Featured topics
 
+* [[FAQ]]
 * [[Fediverse]]
 * [[Home automation]]
 * [[Self-hosting]]
