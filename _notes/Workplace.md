@@ -8,7 +8,8 @@ I'm a long-time Linux user. But after 2020, as <abbr title="Windows Subsystem fo
 I do still use Linux at home for [[self-hosting|hosting my "cloud services"]], since that's the area where I believe Linux still shines. And the software I work on usually runs in Linux, and as such a lot of tooling that I use is Linux-based.
 
 * [[KeePass]] has become my go-to solution for credential management.
-* [[zsh]] is my shell of choice.
+* [[zsh]] is my shell of choice since about 2014.
+* [[Visual Studio Code]] is my editor of choice since 2020.
 
 *[[TODO]] add more software*
 *[[TOPUBLISH]] dotfiles*
