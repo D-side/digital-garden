@@ -34,3 +34,7 @@ permalink: /
 ## 🗺 Map of the garden
 
 {% include notes_graph.html %}
+
+## Additional links:
+
+* [📚 Glossary](/glossary)
