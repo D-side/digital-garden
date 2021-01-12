@@ -1,5 +1,4 @@
 ---
-title: Blog
 ---
 
 I used to maintain [a blog in Russian](https://dside.ru/blog), in large part because I didn't feel back then that I had anything to contribute to a more global community. This has changed! However, once it did, I no longer felt that blog is an appropriate format for this.

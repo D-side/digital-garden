@@ -1,5 +1,4 @@
 ---
-title: Home automation
 ---
 
 Most of the time home automation involves the use of computer-controlled hardware to do things around the house. How exactly this control happens is entirely up to the user.

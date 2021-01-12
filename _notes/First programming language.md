@@ -1,5 +1,4 @@
 ---
-title: First programming language
 ---
 
 This question can come in many forms. "What programming language should I learn first?" Or "What programming language is trending at the moment?" (NB: "programming" in there specifically cuts off a very true, but probably not a very useful answer: English. But that's a story for another time.)
