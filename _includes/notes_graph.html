@@ -177,7 +177,7 @@
     const height = Number(svg.attr("height"));
     let zoomLevel = 1;
 
-    const activeForceStrength = (d) => isCurrentPath(d.path) ? 10 : 1;
+    const activeForceStrength = (d) => isCurrentPath(d.path) ? 10 : 0.1;
 
     const simulation = d3
       .forceSimulation(nodesData)
