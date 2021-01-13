@@ -1,4 +1,5 @@
 ---
+featured: true
 ---
 
 [Fediverse](https://fediverse.party/) is a federated social network comprised of a number of different software projects interoperating through the use of [[ActivityPub]].

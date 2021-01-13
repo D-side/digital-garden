@@ -291,7 +291,7 @@
     restart();
 
     function isCurrentPath(notePath) {
-      return window.location.pathname.includes(notePath)
+      return window.location.pathname == notePath;
     }
 
     function shorten(str, maxLen, separator = ' ') {

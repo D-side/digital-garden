@@ -1,5 +1,6 @@
 ---
 title: Self-hosting
+featured: true
 ---
 
 The practice of avoiding cloud services in favor of services hosted by individuals, typically available in person. These services are usually (but not always) based on open-source projects and are usually pursued due to them being much more privacy-friendly. "Self" normally refers to oneself, but it's fairly common to defer the hosting to someone you know.

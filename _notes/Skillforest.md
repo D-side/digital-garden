@@ -1,4 +1,5 @@
 ---
+featured: true
 ---
 
 Skillforest is a concept that I never got around building, that essentially takes the concept of skill trees from RPGs and applies it to skills of the real world.

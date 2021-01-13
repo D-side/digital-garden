@@ -11,11 +11,14 @@ permalink: /
 
 ## ⭐ Featured topics
 
-* [[FAQ]]
-* [[Fediverse]]
-* [[Home automation]]
-* [[Self-hosting]]
-* [[Skillforest]]
+<ul>
+  {% assign notes = site.notes | where_exp: "item", "item.path contains 'notes' and item.featured" | sort: "title" %}
+  {% for entry in notes %}
+  <li class="list-entry">
+    <a class="internal-link" href="{{ entry.url }}">{{ entry.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
 
 ## ⌚ Latest changes
 

@@ -8,7 +8,7 @@ Z-shell aka `zsh` is my shell of choice.
 
 I only consider Bash and Fish to be its only real competitors. Bash may be a more established and common alternative, but it's pretty stripped-down by default and harder to augment compared to zsh. Fish is the exact opposite in that sense: it's highly advanced right out-of-the-box, featuring autosuggestions "as you type" and completions based on man pages (like, wow); but it's still rather scarce in the wild.
 
-So why zsh? It's sort of a middle-ground between the two. It has a **massive** community that has produced plugins for what feels like _everything_.
+So why zsh? It's sort of a middle-ground between the two. It's not as widespread as Bash, but it has a _massive_ community that has produced plugins for what feels like _everything_.
 
 That said, I might switch to Fish when I invest time into reconsidering my shell choice.
 
@@ -43,3 +43,5 @@ My theme these days is [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 In the "my first Linux distro" days, Bash was everywhere, and I only heard about zsh after a few years.
 
 What hooked me up was oh-my-zsh. That was a taste of "shell power" I was never exposed to before, and I was very impressed.
+
+I also tried to give Fish a chance, but found that support for it is rather limited and zsh is much easier to find help with. As far as I know this is still the case.

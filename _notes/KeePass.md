@@ -1,4 +1,5 @@
 ---
+title: KeePass
 ---
 
 KeePass is a piece of software for password management, which is not very interesting by itself, but its successors *very much* are. It can handle passwords, two-factor authentication, SSH keys, file attachments and pretty much any data where you only want to access one individual entry at a time.
@@ -55,6 +56,8 @@ KeePassXC can add and remove keys with an SSH agent running on a system whenever
 * When the key is an external password-protected file located somewhere near the database, KeePass can unlock it using a password of the same entry.
 * When the key is an [attachment](#files), it can even be kept unprotected, but can be protected too, in which case it will be unlocked using the password of the same entry.
   * [[Security advice]] I would generally recommend protecting the attachment anyway, even if the file doesn't normally leave the database. Because you may need to export it outside for use without an SSH agent, and rescinding decryption unconditionally is a drastic step down in security; even if you later password-protect the file, the unprotected version may stay on-disk indefinitely, even if no longer referenced by the file system. If you trust a system enough, you can strip protection manually afterwards, understanding the risks.
+
+See also [[KeePass in WSL2]] for a story on getting it to work in an unusual environment.
 
 ### Limited responsibility
 
