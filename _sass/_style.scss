@@ -174,3 +174,7 @@ kbd {
   }
   font-size: 0.9em;
 }
+
+#graph-wrapper {
+  overflow-x: hidden; // TODO: size the SVG properly instead?
+}
