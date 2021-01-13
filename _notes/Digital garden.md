@@ -17,6 +17,7 @@ A metaphor for a loose collection of notes that grows all over the place. That's
 
 ## Acknowledgements
 
+* Nick Volynkin (author of [@DocOps (Telegram)](https://t.me/docops)) for pointing me in the general direction of knowledge management.
 * [Athens Research](https://github.com/athensresearch) for establishing a nice hub for finding out about all kinds of tooling for knowledge management. That's where I found the template for this website, but that's the next point.
 * [Maxime Vaillancourt](https://maximevaillancourt.com/) for building the amazing [digital garden template](https://github.com/maximevaillancourt/digital-garden-jekyll-template) this very website is based on. I did make a few improvements over it (which I should probably file as PRs? feel free to snag them from my repo though, they're licensed under MIT):
   * Table of contents, when non-empty, on the right (or below on mobile) courtesy of [`allejo/jekyll-toc`](https://github.com/allejo/jekyll-toc); I was considering adding anchoring links to the headers with the "sister project" that it mentions, but with link previews it looked very messy, so I abandoned that idea.
