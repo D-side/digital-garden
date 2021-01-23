@@ -32,9 +32,7 @@ That said, I might switch to Fish when I invest time into reconsidering my shell
 
 ## Current state
 
-I no longer use the entirety of oh-my-zsh, because it has grown to a less than a decent size, so I prever to cherry-pick just the things that I need instead. Which is when I started using plugin managers, starting with [Antigen](https://github.com/zsh-users/antigen).
-
-Today I use [Antibody](http://getantibody.github.io/) as a plugin manager. Ironically, it was officially deprecated on almost the same day when I actually set up my latest system with it. [[TODO]] It's probably time to go back to Antigen!
+I no longer use the entirety of oh-my-zsh, because it has grown to a less than a decent size, so I prever to cherry-pick just the things that I need instead. Which is when I started using plugin managers, and at the moment I'm using [Antigen](https://github.com/zsh-users/antigen).
 
 My theme these days is [powerlevel10k](https://github.com/romkatv/powerlevel10k), which is, no way to put milder, **insanely powerful** (hence the name, I guess!), it handles all the information display that does not change according to input (and the docs say that it can show some more that _does_ depend on input, such as information about software in commands I'm about to run, e. g. version of Ruby in `bundler`, or current context in `kubectl`).
 
