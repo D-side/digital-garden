@@ -67,4 +67,6 @@ This is possible **without losses** because of the rather clever file structure,
 
 ## KeePassDX (Android)
 
-Also opens KeePass databases and allows access to data therein, but has a much more limited feature set: editing is
+Also opens KeePass databases and allows access to data therein, but has a slightly more limited feature set. It displays default icons differently and cannot download custom ones (but can display), cannot merge databases in case of conflicts, doesn't have SSH agent integration. However, it does have form autofill, allowing you to sign in not just into websites, but into apps as well.
+
+It does support attachments, TOTP and can restrict access to the database with Android's built-in security facilities, like fingerprint readers, so that you don't have to input the password every time (while secure enough for casual use, it's a bad idea for high-risk situations where you may be forced to provide your biometrics).
