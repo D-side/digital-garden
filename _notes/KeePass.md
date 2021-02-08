@@ -6,11 +6,7 @@ KeePass is a piece of software for password management, which is not very intere
 
 ## KeePassXC (desktop)
 
-*[[TODO]]: Windows, OpenSSH, WSL2, SSH agent*
-
-The main powerhouse of KeePass database management.
-
-It opens KeePass databases. Duh.
+The main powerhouse of KeePass database management. It opens KeePass databases, allows protected access to data therein and provides a few operations for database files such as merging.
 
 ### Browser integration
 
@@ -18,7 +14,7 @@ It has an accompanying browser extension for major browsers that allows automati
 
 ### Organization
 
-A particularly handy chunk of features is around *presentation* of your database of credentials. Entries can be grouped into folders and subfolders of any nesting level, icons allow for quick visual [[grepping]], and of course there's search functionality.
+A particularly handy chunk of features is around *presentation* of your database of credentials. Entries can be grouped into folders and subfolders of any nesting level, icons allow for quick visual [[grepping]], and of course there's search. Icons can also be downloaded for respective URLs automatically, although that bit doesn't always work, and using DuckDuckGo for this (disabled in settings by default) is slightly more reliable.
 
 ### Two-factor authentication
 
@@ -71,4 +67,4 @@ This is possible **without losses** because of the rather clever file structure,
 
 ## KeePassDX (Android)
 
-*[[TODO]]: describe [[InputStick]]*
+Also opens KeePass databases and allows access to data therein, but has a much more limited feature set: editing is
