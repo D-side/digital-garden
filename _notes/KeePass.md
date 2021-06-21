@@ -6,6 +6,8 @@ KeePass is a piece of software for password management, which is not very intere
 
 ## KeePassXC (desktop)
 
+[Project website](https://keepassxc.org/) | [Manual](https://keepassxc.org/docs/KeePassXC_UserGuide.html)
+
 The main powerhouse of KeePass database management. It opens KeePass databases, allows protected access to data therein and provides a few operations for database files such as merging.
 
 ### Browser integration
