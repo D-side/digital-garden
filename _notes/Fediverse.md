@@ -66,4 +66,16 @@ Fediverse is powered by **different software projects that support different kin
 
 Say, a user of Mastodon, a microblogging segment of the Fediverse, can subscribe to a PeerTube channel. In more popular networks the equivalent would be the ability to subscribe to a YouTube channel from Twitter, needless to say, currently impossible.
 
-The list of servers supporting ActivityPub and thus compatible with the Fediverse is open! Technically, if a mainstream social network ever decided to support [[ActivityPub]], they could just go ahead and do it. Then their users would be able to subscribe to users of the Fediverse and/or vice versa (depending on the implementation). And who knows, maybe [EU's Digital Markets Act](https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/digital-markets-act-ensuring-fair-and-open-digital-markets_en) might compel some of them to start doing that?
+The list of servers supporting ActivityPub and thus compatible with the Fediverse is open! Technically, if a mainstream social network ever decided to support [[ActivityPub]], they could just go ahead and do it. Then their users would be able to subscribe to users of the Fediverse and/or vice versa (depending on the implementation). And who knows, maybe [EU's Digital Markets Act](https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/digital-markets-act-ensuring-fair-and-open-digital-markets_en) might compel some of them to start doing that? (Actually, is this already happening? Is Twitter's [BlueSky project](https://twitter.com/bluesky) exactly that? Guess we'll have to wait and see.)
+
+## Critique
+
+### Federated vs. distributed
+
+Some say that going federated is not the solution to privacy issues that pertain to the use of traditional centralized social networks. That they still cannot fully preserve the user's intent to expose nothing by default, and merely replace faceless corporations with more defined individuals or organizations. And that's true. But there's more to it.
+
+Even federated networks, as they are, are facing adoption issues. And federated solutions are very similar to the centralized solutions of today, in that after initial sign up they look largely the same to their users, short of a few novelties.  "A perfect solution" to the privacy problem will require breaking even more familiarities/habits for adoption. Enough to make it unrealistic in the present day.
+
+Actually distributed (i. e. across all of the users, not just a network of nodes) requires much more processing on every single device, pretty much barring the use of such solutions on battery-powered hardware. This is in an era where most of the social media interactions happen on the move.
+
+Okay, an obvious solution to that would be splitting up the service into client and server, but then we're getting into essentially the same model that federated services already use. Nothing is stopping a user from creating a node just for themselves. Sure, it's somewhat of an investment of both money (domain costs, hardware purchase/rental, internet connection) and time (setup, although it's getting easier) but it does get dangerously close to "perfect" without compromising any features the users are already accustomed to.

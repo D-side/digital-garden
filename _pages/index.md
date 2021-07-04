@@ -12,8 +12,8 @@ permalink: /
 ## ⭐ Featured topics
 
 <ul>
-  {% assign notes = site.notes | where_exp: "item", "item.path contains 'notes' and item.featured" | sort: "title" %}
-  {% for entry in notes %}
+  {% assign featured = site.notes | where_exp: "item", "item.path contains 'notes' and item.featured" | sort: "title" %}
+  {% for entry in featured %}
   <li class="list-entry">
     <a class="internal-link" href="{{ entry.url }}">{{ entry.title }}</a>
   </li>
@@ -23,8 +23,8 @@ permalink: /
 ## ⌚ Latest changes
 
 <ul>
-  {% assign notes = site.notes | where_exp: "item", "item.path contains 'notes' and item.meta != true" | sort: "last_modified_at" | reverse %}
-  {% for entry in notes %}
+  {% assign latest = site.notes | where_exp: "item", "item.path contains 'notes' and item.meta != true" | sort: "last_modified_at" | reverse %}
+  {% for entry in latest %}
   {% unless entry.path contains "index.md" or entry.path contains "index.html" %}
   <li class="list-entry">
     <div><a class="internal-link" href="{{ entry.url }}">{{ entry.title }}</a> <span

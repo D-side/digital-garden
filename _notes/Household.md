@@ -8,14 +8,17 @@ _[[TODO]] From a list of rather raw ideas make something more usable, illustrati
 ## General
 
 * Mobility for everything
+  * What isn't mobile, can be made mobile temporarily through the use of a lever and platforms on wheels, these can be found at decent prices
 * Smaller apartments call for smaller solutions
   * My history with vacuum cleaners
 * Cleaning kit
-* Usefulness of IKEA
+* Useful and useless sides of IKEA
+  * What's simple is probably also flexible
+  * Furniture in standard sizes can only pack things so tight, tighter spaces are better served by custom-built pieces
 
 ## Entrance
 
-* Pegboard-based wardrobe
+* Pegboard-based coat rack
 
 ## Organization
 
@@ -23,6 +26,8 @@ _[[TODO]] From a list of rather raw ideas make something more usable, illustrati
 * Cheat sheets (e. g. clothing symbols on the washing machine)
 * NFC stickers
 * Adhesive whiteboard film _[[TODO]] (I've yet to actually apply it)_
+* Use a mindset of making it understandable to somebody else; because after long enough you **will** be somebody else
+  * "The next guy to take over could be **you**. Two years older. Or two days older and you've forgotten what's going on" — ["Types are like the Weather, Type Systems are like Weathermen" by Matthias Felleisen](https://www.youtube.com/watch?v=XTl7Jn_kmio); while he was talking about software, the meaning isn't limited to it.
 
 ## Kitchen
 
@@ -34,10 +39,16 @@ Because a lot of the time I cook fresh meals for myself, I have quite a bit of h
 * Magnets for the fridge, function over form
 * What's with the trash bin under the sink?
 
+Hard learned lessons:
+
+* You do **not** need a big drying rack for the dishes if you have a dishwasher, just those and means of **storage**
+* Cooking fresh meals **every single day** eventually gets old, but at that point it may be a habit that's hard to get rid of that'll wear you down ([[Mental health]])
+
 ## Living room
 
 * LCD+solar thermometer
   * Looks cool throughout the day, but useless in the dark
+  * Double-sided tape needs replacement every once in a while, mine failed and took the device with it
 * Ultrasonic humidifier aka "reusable and customizable scented candle"
   * Can add to festive moods, e. g. on New Year's Eve I use a combination of tangerine oil with something evergreen 🌲 like pine or juniper
 * More pegboards
@@ -51,7 +62,13 @@ Because a lot of the time I cook fresh meals for myself, I have quite a bit of h
 
 * DIY shower cabin
 
+## Outside
+
+* I used to have a couple folding beach chairs. But I've never found them to be easy to transport, and as such only used them once or twice. I could pretty much only lug them to a local park on foot, because it's too big for almost everything else, including most cars, planes, trains and even my bike.
+  * I've bought a cheap variation of a "Lamzac" or, as it is better known in Russia due to aggressive marketing, "Биван" (Bivan) — a type of an inflatable "couch" that is prepped for duty by flailing it around to fill with non-pressurized air, then closing the bags up and tightening them up until there is enough pressure inside to use the thing. It's orders of magnitude more pocketable, and therefore usable in a lot more scenarios.
+
 ## Missing pieces
 
-* External means of storage
+* External means of storage (?)
   * I have heard that some cities have warehouses that can store rarely used stuff outside of the apartment, allowing to make better use of apartment space. Apartments in Russia usually include storage spaces in areas that are otherwise useless, but these places are usually very hard to access and offer very limited space.
+  * After revising my possessions I'm actually close to concluding that I can free up enough space at my current place to not need this. Still, it's something that will make a city a lot more comfortable for the general public.
