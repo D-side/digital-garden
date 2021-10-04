@@ -10,11 +10,13 @@ _[[TODO]] From a list of rather raw ideas make something more usable, illustrati
 * Mobility for everything
   * What isn't mobile, can be made mobile temporarily through the use of a lever and platforms on wheels, these can be found at decent prices
 * Smaller apartments call for smaller solutions
-  * My history with vacuum cleaners
+  * My short history with vacuum cleaners:
+      * I got one I've had good experience with, ended up barely using it, because while it's good, it's also pretty high-maintenance because it has a water-based filter which has to be cleaned after every use, and it's also rather bulky and needs a mains cord to function
+      * I got another vacuum cleaner, battery-powered with a cyclone filter which has none of these flaws: it happily endures being left mid-cleanup, is very small and doesn't have a cord — as a result of all that I tend to use it a lot more often
 * Cleaning kit
 * Useful and useless sides of IKEA
   * What's simple is probably also flexible
-  * Furniture in standard sizes can only pack things so tight, tighter spaces are better served by custom-built pieces
+  * Furniture in standard sizes can only pack things so tight, tighter spaces are better served by custom-built pieces; however, tighter spaces can be altered slightly to make them adhere to more standard sizes, but a plan for that has to be made before the space has finished walls, floor or ceiling
 
 ## Entrance
 
@@ -38,17 +40,24 @@ Because a lot of the time I cook fresh meals for myself, I have quite a bit of h
 * Mandoline slicer, for veggies
 * Magnets for the fridge, function over form
 * What's with the trash bin under the sink?
+* Pepper grinders are good for more than just pepper: salt, sugar, coriander, etc.
 
 Hard learned lessons:
 
 * You do **not** need a big drying rack for the dishes if you have a dishwasher, just those and means of **storage**
 * Cooking fresh meals **every single day** eventually gets old, but at that point it may be a habit that's hard to get rid of that'll wear you down ([[Mental health]])
+    * Several solutions:
+        * Batch your cooking to yield multiple meals per session, as long as remaining portions can be properly preserved and there are means to heat the food back up (microwave works best most of the time)
+        * Use a meal delivery service, if there is one in your area at a reasonable price (they're often aimed at body builders, so prices can be exorbitant)
+        * Find someone to share meals and cooking duties with
 
 ## Living room
 
-* LCD+solar thermometer
+Which also in my case doubles as a bedroom and an office, so advice listed in thsi section may be mixed
+
+* ~~LCD+solar thermometer~~
   * Looks cool throughout the day, but useless in the dark
-  * Double-sided tape needs replacement every once in a while, mine failed and took the device with it
+  * Double-sided tape needs replacement every once in a while, mine failed and took the device with it during a window wash
 * Ultrasonic humidifier aka "reusable and customizable scented candle"
   * Can add to festive moods, e. g. on New Year's Eve I use a combination of tangerine oil with something evergreen 🌲 like pine or juniper
 * More pegboards

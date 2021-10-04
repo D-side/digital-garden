@@ -50,4 +50,4 @@ I would not recommend anything that uses Bluetooth. Sure, there are devices that
 
 ### Mobile office
 
-It just so happens sometimes that I take my office with me.
+It just so happens sometimes that I take my office with me. My laptop hops out of the dock into my backpack along with [[Chargers|a compact suite of chargers]]. For particularly busy trips I also have a couple portable USB-C monitors providing a bigger working/observation surface.

@@ -1,4 +1,5 @@
 ---
+featured: true
 ---
 
 A set of tasks designed for ease of repeatability by others. The term itself is a variation of popular "todo list", but with emphasis on *redoing* what someone else already went through. Data-wise a simplest redo list is tasks + dependency relations between them (forming a [[DAG]], hopefully; in reality acyclicity may be violated).

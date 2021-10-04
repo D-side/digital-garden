@@ -29,4 +29,4 @@ Backups can be made in many ways:
 
 In addition to defeating anxiety that you may one day randomly lose your data, this allows you to conduct various experiments that would've otherwise been very risky or laborious due to the necessity to copy your data back and forth, but may make your life more convenient when they work out. These can include switching devices or switching an existing device's operating system for something more promising.
 
-_([[TODO]] Starting the process, isolating the data worth preserving, establishing storage tiers)_
+_([[TODO]] Starting the process, isolating the data worth preserving, establishing storage tiers, reducing the number of datastores with portability)_
