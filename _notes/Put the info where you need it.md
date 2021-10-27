@@ -6,7 +6,11 @@
 
 ## The right place
 
-Ideally, you should also have **one** source for one kind of information depending on *where you may need it, not where it **is***. Because the more sources of bookmarks you have, the harder it gets to combine them and look them up. And various services and pieces of software keep suggesting their own quickly accessible but limited versions:
+Ideally, you should also have **one** source for one kind of information depending on *where you may need it, not where it **is***. Because the more sources of bookmarks you have, the harder it gets to combine them and look them up.
+
+### Detractors
+
+And various services and pieces of software keep suggesting their own quickly accessible but limited versions:
 
 * Browsers have their own bookmark store that's intended for bookmarking primarily web links.
     * It can be decent, with tags and extra notes in plain text (not *rich* text, but at least it's *something*), and often comes with synchronization across machines and even platforms, though hardwired into the browser vendor's services.

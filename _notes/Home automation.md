@@ -81,5 +81,7 @@ Sadly, it has no feedback on, say, whether it's on. Although this can be added u
 ## Controlling the system
 
 * Home Assistant itself comes with a highly customizable web UI and mobile apps.
+* Voice control is a great hands-off control method
+    * There is no "best" solution yet; but [[Rhasspy]] comes dangerously close
 * NFC stickers can be bound to ad-hoc actions and executed by scanning said tags with a smartphone.
 * Aqara cube is attached to the most frequently used actions (lights mostly)
