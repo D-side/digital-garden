@@ -41,6 +41,7 @@ Because a lot of the time I cook fresh meals for myself, I have quite a bit of h
 * Magnets for the fridge, function over form
 * What's with the trash bin under the sink?
 * Pepper grinders are good for more than just pepper: salt, sugar, coriander, etc.
+* Plenty of food-safe silicone utilities that don't damage soft surfaces or fold nicely, like funnels, drinking glasses, stainers, spatulas, etc.
 
 Hard learned lessons:
 

@@ -28,9 +28,11 @@ These wars usually occur in places that only consider **existing** solutions, an
 
 ### The familiar realm
 
-Let's make something clear first though. There are some good parts in modern graphical interfaces. Even these, though, are usually half-broken. One of these would be dran&drop, which has to be the most intuitive mouse gesture there is, and it's **criminally underutilized**.
+Let's make something clear first though. There are some good parts in modern graphical interfaces. Even these, though, are usually half-broken. One of these would be drag&drop, which has to be the most intuitive mouse gesture there is, and it's **criminally underutilized**.
 
-You can drag&drop rather a lot of things: files, text, images
+> 📝 For the purposes of this topic the "share" pattern in mobile apps is largely equivalent to drag&drop, as a one-off transmission between the apps. Compatibility is handled a bit differently: instead of displaying a list of apps compatible with the given type of shared content, drag&drop displays feedback from the app that's under the cursor. Capability-wise it's essentially the same.
+
+You can drag&drop rather a lot of things: files, text, images – but all these are usually one-off interactions and don't establish a communication **channel** or a pipeline.
 
 Another good mechanism, which has become so essential it's often times the primary mechanism for interaction across software, is the clipboard. It isn't necessarily hard-tied to the graphical, it's available in text-based too, but graphical interfaces take it to the next level by allowing far more types of content.
 

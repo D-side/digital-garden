@@ -3,10 +3,13 @@
 - If it's a shell command — make a script out of it or use a snippet manager (like [Pet](https://github.com/knqyf263/pet)) that will make that command easily accessible
 - If it's a note template — make an actual template file rather than extracting the structure out of a complete document every time, and make sure that a note can be made out of that template quickly
 - If it's a lot of information of similar structure — make it into a dataset in a machine-readable format so that its data nature can be quickly brought to light
+- If it's a password, key, passphrase or any other kind of digital security credential — you want that stored in a safe place anyway; a password manager would be a decent pick, I myself prefer [[KeePass]]
 
 ## The right place
 
 Ideally, you should also have **one** source for one kind of information depending on *where you may need it, not where it **is***. Because the more sources of bookmarks you have, the harder it gets to combine them and look them up.
+
+If it's knowledge about an open project — it's best to get it contributed somewhere where *all* of project users can find it, which usually means the project's own knowledge base. Posting that knowledge elsewhere is not a problem and can be useful (for redundancy or additional related details that would otherwise be off-topic), but posting it in the place most likely to be accessed by its potential users is most likely to bring about the most benefit overall.
 
 ### Detractors
 
