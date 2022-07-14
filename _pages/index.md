@@ -23,7 +23,7 @@ permalink: /
 ## ⌚ Latest changes
 
 <ul>
-  {% assign latest = site.notes | where_exp: "item", "item.path contains 'notes' and item.meta != true" | sort: "last_modified_at" | reverse %}
+  {% assign latest = site.notes | where_exp: "item", "item.path contains 'notes' and item.meta != true" | sort: "last_modified_at" | reverse | slice: 0, 4 %}
   {% for entry in latest %}
   {% unless entry.path contains "index.md" or entry.path contains "index.html" %}
   <li class="list-entry">
