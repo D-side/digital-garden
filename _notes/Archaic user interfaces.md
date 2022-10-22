@@ -16,8 +16,8 @@ Yet:
 * Graphical interfaces typically don't support any forms of automation other than what may be built into individual tools — so each tool ends up reimplementing a sizeable chunk of functionality to do that, and interaction between multiple such tools is usually impossible
     * A more popular approach is either digging into the internal structure of the interface (like HTML on the web) which is unstable, prone to breaking after updates of the underlying software and only works with a limited set of software (websites and Electron-based apps); or recording and replaying ordinary user inputs. The latter comes with all imperfections of the input methods:
         * exclusivity (the system usually perceives only one set of these, so they can only do one task) — defeated through either virtualization or OS-specific hackery
-        * focus on manual interactions, which are performed at "human speeds", which is why plain recordings of actions are usually edited to make them run faster, saving time — which is the whole point of automation
-    * Command lines, on the other hand, are inherently replayable, and quickly: since the command typed in manually can be saved and placed elsewhere to be invoked as part of another process; and manual actions are only required to *build* the command, not to *run* it, so there's much less time and resources wasted in execution
+        * focus on manual interactions, which are performed at "human speeds", which is why plain recordings of actions are usually edited to make them run faster, saving time — which is the whole point of automation; and can randomly start failing if the UI can't keep up, because there's no native way to get feedback from the inputs
+    * Command lines, on the other hand, are inherently replayable, and quickly: since the command typed in manually can be saved and placed elsewhere to be invoked as part of another process; and manual actions are only required to *build* the command, not to *run* it, there's much less time and resources wasted in repeated executions
     * Command lines are also a lot more composable: because outputs are easy to capture and analyze by other commands, even different pieces of software can interact with each other effectively, and where they can't, a gateway can be built to facilitate that interaction anyway. This level of composability in graphical interfaces is hard to find and it's usually purpose-built, like VSTi in sound engineering.
 
 ## The middle ground
@@ -50,6 +50,6 @@ TODO: what's good about it, message channels
 
 ## The economic incentive
 
-TODO: for lack of portable flexible mechanisms, the industry has gotten accustomed to selling every narrowly-scoped implementation as a major feature, it's easy to suspect an economic incentive under it, but it's probably just the easiest way to go about the low-hanging features
+TODO: for lack of portable flexible mechanisms, the industry has gotten accustomed to selling every narrowly-scoped implementation as a major feature, it's easy to suspect an economic incentive under it, but it's probably just the easiest way to go about the low-hanging features, adhering to existing standards requires researching them first and ain't nobody got time for that
 
 > [[Futurisms]]

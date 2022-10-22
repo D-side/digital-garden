@@ -11,15 +11,13 @@ While video games are often considered evolution of movies into interactivity, t
 
 And within video games it already does happen.
 
-The simplest form of it is picking different music tracks depending on the type of activity or the environment.
+The simplest form of it is picking different music tracks, probably most prominently music tracks associated with different locations.
 
-A slightly more complicated variant is [[cross-fade|cross-fading]] between the music tracks of the same structure and motif, but varying intensity (a good example is FTL: Faster Than Light, that uses Explore or Battle variants depending on whether the player is in combat), normally through adding or removing instruments.
+A slightly more sophisticated variant is [[cross-fade|cross-fading]] between the music tracks of the same structure and motif, but varying intensity (a good example is FTL: Faster Than Light, that uses Explore or Battle variants depending on whether the player is in combat), normally through adding or removing instruments.
 
 More elaborate sound designs incorporate certain flexibility into the music itself to make transitions sound natural at any given moment (e. g. Octopath Traveler, Ori and the Will of the Wisps).
 
-It actually happens in the movies too. You may have had moments where you've noticed major plot twists just from the music building up the anticipation for them. Almost like a built-in spoiler alert!
-
-The common theme in all these scenarios is breaking the static nature of the music and making it reflect the surrounding circumstances, enhancing the perception of these circumstances.
+The common theme in all these scenarios is breaking the static nature of the music and making it reflect the surrounding circumstances, enhancing the perception of these circumstances. It's an evolution of the art of sound design in the movies, where the sequence of events is predefined, interactivity adds a whole new dimension of complexity.
 
 ## Procedural generation
 

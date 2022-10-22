@@ -8,6 +8,8 @@ How do people live with more than one SSH identity? Here's how I do.
 
 ## My way
 
+> ⚠ May be out of date, since I no longer need this mechanism and don't use it. 
+
 ### Identify the keys
 
 First I need a way to identify keys for myself. Something I can use to understand what am using at any given moment. Filenames could be an obvious choice, but I don't store private keys in my file system directly. I use an SSH Agent and [[KeePass]] combo.
@@ -49,7 +51,7 @@ done
 
 #### Option 2: `fzf`
 
-`fzf` is a nifty command-line utility that accepts multi-line input displays a menu out of them, plus an input field that accepts a search query. The search algorithm is "fuzzy", hence the name (FuZzy Finder); similar algorithms drive  functions like the "command palette" and "go to anything" in some modern text editors:
+`fzf` is a nifty command-line utility that accepts multi-line input displays a menu out of them, plus an input field that accepts a search query. The search algorithm is "fuzzy", hence the name (FuZzy Finder); similar algorithms drive  functions like the "command palette" and "go to anything" in many modern text editors (probably popularized by Sublime Text):
 
 ```sh
 pubkey=$(find ~/.ssh/identities -type f | fzf)
@@ -81,5 +83,5 @@ Another way is to use an alias for when you need to use a particular key. That w
 
 Implicitly. Okay. How about SSH config then? It allows specifying keys that are specific to certain hosts, be it a hostname, IP address or a subnet. What could go wrong there? Rather a lot.
 
-* IP addresses from private ranges may be pointing at different hosts depending on the network you're in. Use hostnames then? Hostname resolution isn't always available. I happened to work in a system that obtained IP addresses programmatically. Could a properly working hostname system improve the experience of working with it? Possibly, but it still wasn't there.
+* IP addresses from private ranges may be pointing at different hosts depending on the network you're in, and yes, a machine may roam between networks both physically (especially if it's a laptop) and virtually (using VPN). Use hostnames then? Hostnames aren't always set up properly, unfortunately, one of the systems I worked on had a script that obtained an IP address that matches the given constraints.
 * One and the same set of hosts could be providing you access to different resources depending on the key you used. And there's a popular example: GitHub. A popular myth with beginners is that SSH key is a direct alternative to a password, except with a different way of usage. That's not true: an SSH key both _tells_ a service who you are and _proves_ it, and in that sense it serves as _both_ username _and_ password. The username you use to access GitHub is actually `git`, for everyone. Executing `ssh git@github.com` allows you to see what account you're authenticated with on GitHub.

@@ -11,7 +11,7 @@ Augmenting one's thought process with external means, like notes, automation and
 
 ## Digital devices
 
-Some owners treat their devices in such a way that they are constantly anxious that this device might one day malfunction, losing everything stored on it as a result. Issues can range from software issues (OS corruption, malware) to physical damage (burning down with the apartment).
+Some owners treat their devices in such a way that they are constantly anxious that this device might one day malfunction, losing everything stored on it as a result. Issues can range from software issues (OS corruption, malware) to physical damage (theft, burning down with the apartment).
 
 _Trust_ beats anxiety. So the fix to this is a backup strategy that you can _trust_.
 

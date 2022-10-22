@@ -4,7 +4,7 @@ A voice assisdant toolkit that bundles together the best of what open-source pro
 
 ## Russian language
 
-It supporrts the Russian language decently with the following components:
+It supports the Russian language decently with the following components:
 
 * Porcupine for voice activation — it only has a few pre-trained English hotword models by default, but there are a some among them that sound reasonably close in Russian
     * Now that a fork of Snowboy includes training scripts for custom words, may be a better choice
@@ -20,4 +20,4 @@ It supporrts the Russian language decently with the following components:
     * I found a recording of a few keypresses on a mechanical keyboard and cut out a single key **press** and **release** for start and end of recognition respectively — yielding an impression that it records commands with a tape recorder from the olden days. Cool *and* quick!
 * Add some sentences to stop false positives from doing anything. Attach them to a name of the intent that does not have a handler. Phrases such as "stand down", "ignore that", "not you", etc.
     * You *can* add responses later though, phrases like "okay", "got it", "[nop nop nop](https://en.wikipedia.org/wiki/NOP_(code))" and the like — until they get annoying anyway 🙂
-* I happen to have a particularly badmouthing friend, but it was still fun to teach the assistant to respond to him in kind right then and there
+* I happen to have a particularly badmouthing friend, it was a lot of fun to teach the assistant to respond to him in kind, he himself also guided the process.
