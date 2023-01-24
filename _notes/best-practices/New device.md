@@ -1,3 +1,6 @@
+---
+---
+
 When you've purchased a new device (any kind of consumer electronics, but the same applies to many other kinds of hardware too), make sure to:
 
 - Save purchase information, including:

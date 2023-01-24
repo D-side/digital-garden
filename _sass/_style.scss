@@ -103,6 +103,9 @@ main {
 
 nav {
   font-size: xx-large;
+  & a {
+    padding: 0;
+  }
 }
 
 #notes-entry-container {
@@ -177,4 +180,15 @@ kbd {
 
 #graph-wrapper {
   overflow-x: hidden; // TODO: size the SVG properly instead?
+}
+
+a.source-link {
+  transition: color .3s;
+  font-size: 0.8em;
+  text-decoration: none;
+  border-bottom: none;
+  color: $color-border;
+  &:hover {
+    color: $color-subtext;
+  }
 }

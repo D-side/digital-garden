@@ -13,3 +13,7 @@ _includes/notes_graph.json
 
 # Obsidian config
 .obsidian/
+
+# Local bundle & its configuration
+vendor/*
+.bundle

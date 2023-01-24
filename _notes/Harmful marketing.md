@@ -1,3 +1,6 @@
+---
+---
+
 I take issue with a lot of marketing techniques in use today.
 
 Some things on this page may sound like I'm "judging poor people". But I do understand that under financial pressure they don't always have a choice. I still aim to inform them about the potential consequences both for themselves as well as the society they live in.
@@ -11,7 +14,7 @@ Some things on this page may sound like I'm "judging poor people". But I do unde
         * Sale of accessories or consumables may include an extra cut to soften the loss incurred on the base product.
             * Think games for a videogame console, or coffee capsules for a coffee machine, or ink for an inkjet printer, or a charger with a proprietary plug — if these things seem to cost way more than competition and aren't compatible with anything but specific product by the same or associated manufacturer, this is usually why.
 * Discounts / cashback
-    * They're quite often not real, the "original price" may never have been there — in some countries such practice is illegal, but can still be found because enforcement is difficult
+    * The specified "original price" may never have been there — in some countries such practice is illegal, but can still be found because enforcement is difficult
         * Check similar offers by competitors to verify, or track price changes over time for the items in question
     * Especially big percentages should certainly raise eyebrows and warrant investigation into why would it be — for a particular brand it may mean that they massively overshot the price range for how much value they deliver, but, unlike a discount, a permanent price drop usually isn't accompanied with a flashy label and might make the manufacturer look bad
 * Temporary subscription discounts

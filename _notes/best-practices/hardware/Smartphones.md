@@ -1,3 +1,6 @@
+---
+---
+
 Picking a smartphone today is a rather tough affair because the market seems to be largely abandoning any sufficiently narrow niches, so most devices on store shelves look largely the same. Although there are usually some subtler differences, some of which are sadly unavailable on the spec sheet.
 
 Do mind the "last updated" here, because the industry evolves and the information here will grow out of date as time goes on.

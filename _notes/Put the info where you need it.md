@@ -1,3 +1,6 @@
+---
+---
+
 ## The right format
 
 - If it's a shell command — make a script out of it or use a snippet manager (like [Pet](https://github.com/knqyf263/pet)) that will make that command easily accessible

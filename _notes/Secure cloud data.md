@@ -11,6 +11,6 @@ To be fair, even if they don't keep their promises, they are still a major step 
 
 I recommend separating _storage_ and _access_ to parties that are vanishingly unlikely to cooperate to access your data.
 
-You can use [[Syncthing]] to handle storage without any server storage at all, or your own instance of [[Nextcloud]] where server storage can be trusted. Just make sure that whatever software you use supports _conflict resolution_. Because this will be necessary. I myself recommend [[KeePass|KeePassXC]].
+You can use [[Syncthing]] to handle storage without any server storage at all, or your own instance of Nextcloud where server storage can be trusted. Just make sure that whatever software you use supports _conflict resolution_. Because this will be necessary. I myself recommend [[KeePass|KeePassXC]].
 
 [[FAQ]] [[Security advice]]

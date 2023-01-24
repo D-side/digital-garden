@@ -51,6 +51,10 @@ Hard learned lessons:
         * Batch your cooking to yield multiple meals per session, as long as remaining portions can be properly preserved and there are means to heat the food back up (microwave works best most of the time)
         * Use a meal delivery service, if there is one in your area at a reasonable price (they're often aimed at body builders, so prices can be exorbitant)
         * Find someone to share meals and cooking duties with
+        
+Random hints:
+
+* To prevent a couple eggs from rolling off the kitchen counter, you can place them into the handles of scissors.
 
 ## Living room
 

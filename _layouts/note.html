@@ -2,9 +2,10 @@
 layout: default
 ---
 
+{% assign source_link = "https://github.com/D-side/digital-garden/tree/master/" | append: page.path %}
 <article>
   <div>
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.title }}<a href="{{ source_link }}" class="source-link" title="Link to the source file, in case you'd like to suggest changes or get the source in Markdown">.md</a></h1>
     <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
       Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
       {% endif %}
@@ -50,6 +51,7 @@ layout: default
 <hr>
 
 <h4>💬 Got something to say about any of this? <a href="https://dside.ru/en/">Get in touch!</a></h4>
+<h4>📝 You can also suggest changes to this note by editing <a href="{{ source_link }}">this file</a> on GitHub.</h4>
 
 <h4>🗺 {% if page.meta %}This is a secret page! Sh-h, don't tell anyone.{% else %}You are here:{% endif %}</h4>
 

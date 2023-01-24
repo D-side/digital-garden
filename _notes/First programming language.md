@@ -61,6 +61,6 @@ But there is, of course, *a catch*. Being uninformed and being aware of it. We c
 
 But there is a catch *inside* that catch. As tooling evolves, it gets more accessible. So by the time you'll actually require automation, there is a fair chance that tooling will have evolved enough that you will not have to learn much in order to automate whatever it is you need.
 
-So this is a [[balance]] where you just have to make the call. It's obviously not just two states of investing no time at all and going all the way in. If anything then because the latter is simply impossible. It's a question of how deep you want or need to go.
+So this is a tradeoff where you just have to make the call. It's obviously not just two states of investing no time at all and going all the way in. If anything then because the latter is simply impossible. It's a question of how deep you want or need to go.
 
 [[FAQ]]
