@@ -34,7 +34,7 @@ permalink: /
   {% endfor %}
 </ul>
 
-## 🗺 Map of the garden
+## 🗺 Map of the garden <span id="zoom" style="float: right;">1.00</span>
 
 {% include notes_graph.html %}
 

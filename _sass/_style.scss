@@ -180,6 +180,14 @@ kbd {
 
 #graph-wrapper {
   overflow-x: hidden; // TODO: size the SVG properly instead?
+  box-shadow: inset 0 0 0.5em $color-border;
+  margin: 0.5em;
+}
+
+#zoom {
+  &::before {
+    content: "🔎⨯";
+  }
 }
 
 a.source-link {
