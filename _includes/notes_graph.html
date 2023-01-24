@@ -40,8 +40,8 @@
 
 <div id="graph-wrapper">
   <script>
-    const MINIMAL_NODE_SIZE = 8;
-    const MAX_NODE_SIZE = 12;
+    const MIN_NODE_SIZE = 6;
+    const MAX_NODE_SIZE = 16;
     const ACTIVE_RADIUS_FACTOR = 1.5;
     const STROKE = 1;
     const FONT_SIZE = 16;
@@ -58,16 +58,12 @@
     const updateNodeSize = () => {
       nodesData.forEach((el) => {
         let weight =
-          3 *
+          1 *
           Math.sqrt(
             linksData.filter((l) => l.source === el.id || l.target === el.id)
               .length + 1
-          );
-        if (weight < MINIMAL_NODE_SIZE) {
-          weight = MINIMAL_NODE_SIZE;
-        } else if (weight > MAX_NODE_SIZE) {
-          weight = MAX_NODE_SIZE;
-        }
+          ) + el.weight;
+        weight = Math.max(MIN_NODE_SIZE, Math.min(weight, MAX_NODE_SIZE));
         nodeSize[el.id] = weight;
       });
     };
