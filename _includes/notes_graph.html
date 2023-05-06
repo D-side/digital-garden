@@ -1,3 +1,4 @@
+<h2 id="map-title">🗺 Map <span style="float: right;"><span id="zoom-reset">🔄</span> <span id="zoom">1.00</span></span></h2>
 <style>
   .links line {
     stroke: #ccc;
@@ -282,11 +283,41 @@
 
     const zoomHandler = d3.zoom().scaleExtent([0.2, 3]).on("zoom", resize);
 
+    let resetButton = document.getElementById("zoom-reset");
+    resetButton.addEventListener("click", () => svg.call(zoomHandler.transform, d3.zoomIdentity));
+
+    // Insert a hint indicating the map isn't global
+    if (window.location.pathname == "/map" && window.location.hash != "") {
+      let localPath = window.location.hash.substring(1);
+      let localNodes = graphData.nodes.filter((node) => node.path == localPath);
+      
+      if (localNodes.length > 0) {
+        let localLabel = localNodes[0].label;
+        let localHint = document.createElement("p");
+
+        let resetLink = document.createElement("a");
+        resetLink.setAttribute("href", "");
+        resetLink.setAttribute("class", "no-tooltip")
+        resetLink.append("reset");
+
+        let localLabelElement = document.createElement("a");
+        localLabelElement.setAttribute("href", localNodes[0].path);
+        localLabelElement.append(localLabel);
+
+        localHint.append("🎯 Around: ", localLabelElement, " (", resetLink, ")");
+        document.getElementById("map-title").insertAdjacentElement("afterend", localHint);
+      }
+    }
+
     zoomHandler(svg);
     restart();
 
     function isCurrentPath(notePath) {
-      return window.location.pathname == notePath;
+      if (window.location.pathname == "/map") {
+        return window.location.hash == ("#" + notePath);
+      } else {
+        return window.location.pathname == notePath;
+      }
     }
 
     function shorten(str, maxLen, separator = ' ') {
