@@ -7,7 +7,7 @@ A voice assisdant toolkit that bundles together the best of what open-source pro
 
 ## Russian language
 
-It supports the Russian language decently with the following components:
+It supporrts the Russian language decently with the following components:
 
 * Porcupine for voice activation — it only has a few pre-trained English hotword models by default, but there are a some among them that sound reasonably close in Russian
     * Now that a fork of Snowboy includes training scripts for custom words, may be a better choice

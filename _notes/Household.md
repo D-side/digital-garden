@@ -12,15 +12,19 @@ _[[TODO]] From a list of rather raw ideas make something more usable, illustrati
 * Smaller apartments call for smaller solutions
   * My short history with vacuum cleaners:
       * I got one I've had good experience with, ended up barely using it, because while it's good, it's also pretty high-maintenance because it has a water-based filter which has to be cleaned after every use, and it's also rather bulky and needs a mains cord to function
-      * I got another vacuum cleaner, battery-powered with a cyclone filter which has none of these flaws: it happily endures being left mid-cleanup, is very small and doesn't have a cord — as a result of all that I tend to use it a lot more often
+      * I got another vacuum cleaner, battery-powered with a cyclone filter which has none of these flaws: it happily endures being left mid-cleanup, is very small and doesn't have a cord — as a result of all that I tend to use it a lot more often; its own downside is that it's a lot less powerful for just about anything other than dust and requires more frequenst use
 * Cleaning kit
 * Useful and useless sides of IKEA
   * What's simple is probably also flexible
   * Furniture in standard sizes can only pack things so tight, tighter spaces are better served by custom-built pieces; however, tighter spaces can be altered slightly to make them adhere to more standard sizes, but a plan for that has to be made before the space has finished walls, floor or ceiling
+* Physical space is a lot more expensive than digital space, so when the extent of the mess is comparable between the two (if it's difficult to compare, it probably is), it makes more sense to start with physical first
+* [[Being stateless]] through attaching simple rules with physical reminders (e. g. stickers)
+  * Organizing documents into compartments makes it easier, even starting with a single "Inbox" box/tray, out of which clusters of documents are extracted elsewhere
+  * Depending on the model, it may be possible to place a sticker on the top side of the detergent drawer of a washing machine, so that when pulled out a little bit it makes the sticker visible: it can be a label such as "Laundry time!"
 
 ## Entrance
 
-* Pegboard-based coat rack
+* Pegboard-based coat rack is a very flexible framework for arranging various items needed when going out or arriving home
 
 ## Organization
 
@@ -30,6 +34,9 @@ _[[TODO]] From a list of rather raw ideas make something more usable, illustrati
 * Adhesive whiteboard film _[[TODO]] (I've yet to actually apply it)_
 * Use a mindset of making it understandable to somebody else; because after long enough you **will** be somebody else
   * "The next guy to take over could be **you**. Two years older. Or two days older and you've forgotten what's going on" — ["Types are like the Weather, Type Systems are like Weathermen" by Matthias Felleisen](https://www.youtube.com/watch?v=XTl7Jn_kmio); while he was talking about software, the meaning isn't limited to it.
+* Privacy tools: we routinely deal with a surprising amount of sensitive data on paper
+  * **Paper shredder** may be a useful purchase to prevent information leakage through documents
+  * **Jet lighter** can be used to burn off sensitive parts on bigger items (stickers on packaging)
 
 ## Kitchen
 
@@ -37,15 +44,18 @@ Because a lot of the time I cook fresh meals for myself, I have quite a bit of h
 
 * Microwave oven
   * Plastic microwave steamer is surprisingly versatile
-* Mandoline slicer, for veggies
-* Magnets for the fridge, function over form
-* What's with the trash bin under the sink?
+* Mandoline slicer, for veggies — near-perfect size consistency makes for an overall pleasant texture and more consistent cooking
+* Magnets for the fridge can be more than decorations:
+  * Attaching paper notes (recipes, cheat sheets, manuals)
+  * Whiteboard
+* What's with the trash bin under the sink being so common, is it actually the most convenient place?
 * Pepper grinders are good for more than just pepper: salt, sugar, coriander, etc.
 * Plenty of food-safe silicone utilities that don't damage soft surfaces or fold nicely, like funnels, drinking glasses, stainers, spatulas, etc.
+  * Not all of them are reliable, some materials degrade severely over time, tearing apart along the folds, but it's difficult to tell if that's the case before buying
 
 Hard learned lessons:
 
-* You do **not** need a big drying rack for the dishes if you have a dishwasher, just those and means of **storage**
+* Dishwasher can double as a **drying rack**, but doesn't work very well as storage
 * Cooking fresh meals **every single day** eventually gets old, but at that point it may be a habit that's hard to get rid of that'll wear you down ([[Mental health]])
     * Several solutions:
         * Batch your cooking to yield multiple meals per session, as long as remaining portions can be properly preserved and there are means to heat the food back up (microwave works best most of the time)
@@ -74,7 +84,7 @@ Which also in my case doubles as a bedroom and an office, so advice listed in th
 
 ## Bathroom
 
-* DIY shower cabin
+* DIY shower cabin out of more heavy-duty pieces than off-the-shelf cabins are normally comprised of
 
 ## Outside
 

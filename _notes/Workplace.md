@@ -9,7 +9,9 @@ I do still use Linux at home for [[self-hosting|hosting my "cloud services"]], s
 
 * [[KeePass]] has become my go-to solution for credential management.
 * [[zsh]] is my shell of choice since about 2014.
-* [[Visual Studio Code]] is my editor of choice since 2020.
+* Visual Studio Code is my editor of choice since 2020
+    * After trying out Sublime Text, Light Table, Atom, Brackets, Spacemacs
+* Occasional use of [micro](https://micro-editor.github.io/) in environments limited to text-based sessions
 
 *[[TODO]] add more software*
 *[[TOPUBLISH]] dotfiles*
