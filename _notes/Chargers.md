@@ -28,7 +28,7 @@ I focus on USB Type C support heavily. Thus, to make best use of the kit, you ma
 * Cables:
 	* C—C, 2m length, angled connector, with support up to 100W — for charging during use
 	* C—C, shortest available — if the wall charger comes with more than one; getting a short one may be a good idea for use in tight spaces like backpacks (with a power bank)
-		* one may come bundled with Thunderbolt devides, probably rather short too — it's usually good
+		* one may come bundled with Thunderbolt devices, probably rather short too — it's usually good
 	* A—C, 2m length, angled connector — for charging a smartphone/tablet during use and compatibility with devices that do not support [[Power Delivery]]
 	* A—C, shortest available — for use in tight spaces like backpacks with a power bank
 * Adapters:
