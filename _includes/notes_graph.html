@@ -1,13 +1,12 @@
 <h2 id="map-title">🗺 Map <span style="float: right;"><span id="zoom-reset">🔄</span> <span id="zoom">1.00</span></span></h2>
 <style>
   .links line {
-    stroke: #ccc;
+    stroke: #edc3ae;
     opacity: 0.5;
   }
 
   .nodes circle {
     cursor: pointer;
-    fill: #8b88e6;
     transition: all 0.15s ease-out;
   }
 
@@ -55,6 +54,8 @@
     let linksData = graphData.edges;
 
     const nodeSize = {};
+
+    const nodeColor = d3.scaleOrdinal(d3.schemeGreens[9].slice(3, 7));
 
     const updateNodeSize = () => {
       nodesData.forEach((el) => {
@@ -243,6 +244,7 @@
         .attr("r", (d) => {
           return nodeSize[d.id];
         })
+        .attr("fill", (d) => nodeColor(d.label))
         .on("click", onClick)
         .on("mouseover", onMouseover)
         .on("mouseout", onMouseout)
