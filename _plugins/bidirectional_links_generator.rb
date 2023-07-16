@@ -69,12 +69,12 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       end
 
       # Nodes: Graph
-
       graph_nodes << {
         id: note_id_from_note(current_note),
         path: current_note.url,
         label: current_note.data['title'],
-        weight: (Math.log(current_note.content.length.clamp(1..)).round - 3) * 2
+        weight: (Math.log(current_note.content.length.clamp(1..)).round - 3) * 2,
+        featured: current_note.data["featured"]
       } unless current_note.path.include?('_notes/index.html') ||
         current_note.data["meta"]
 

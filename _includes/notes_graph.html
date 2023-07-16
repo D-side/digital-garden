@@ -55,8 +55,6 @@
 
     const nodeSize = {};
 
-    const nodeColor = d3.scaleOrdinal(d3.schemeGreens[9].slice(3, 7));
-
     const updateNodeSize = () => {
       nodesData.forEach((el) => {
         let weight =
@@ -234,6 +232,9 @@
         .attr("y2", (d) => d.target.y);
     };
 
+    const nodeColor = d3.scaleOrdinal(d3.schemeYlGn[9].slice(3, 5));
+    const featuredNodeColor = d3.scaleOrdinal(d3.range(0.3, 0.7, 0.06).map(d3.interpolateRdPu));
+
     const restart = () => {
       updateNodeSize();
       node = node.data(nodesData, (d) => d.id);
@@ -244,7 +245,7 @@
         .attr("r", (d) => {
           return nodeSize[d.id];
         })
-        .attr("fill", (d) => nodeColor(d.label))
+        .attr("fill", (d) => d.featured ? featuredNodeColor(d.label) : nodeColor(d.label))
         .on("click", onClick)
         .on("mouseover", onMouseover)
         .on("mouseout", onMouseout)
