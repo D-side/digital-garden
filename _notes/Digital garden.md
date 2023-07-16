@@ -1,13 +1,15 @@
 ---
 ---
 
-A metaphor for a loose collection of notes that grows all over the place. That's pretty much it. My take on digital gardening is that it's basically the act of breaking free from more rigid formats, e. g. a [[blog]].
+A metaphor for a loose collection of personal notes that grows all over the place. For me this format was born out of dissatisfaction with [[Blog|blogging]]. Here I focus on present day, key takeaways, handy references and lots of associative structure to navigate.
+
+Occasionally, and where appropriate, backed by sources, but overall — extreme amounts of personal opinions, so expect personal biases.
 
 ## Common uses
 
 * Publishing practical summaries of more in-depth sources, like books, articles or videos
   * [Makandra cards](http://makandracards.com/makandra) serve roughly the same purpose
-* Annotating and categorizing "favorites" where this feature is unavailable, e. g. in GItHub ⭐ stars and bookmarks
+* Annotating and categorizing "favorites" where this feature is unavailable, e. g. in GitHub stars and bookmarks
 * Keeping up-to-date descriptions of various evolving contraptions, software and hardware; e. g. [[Workplace]]; and possibly tasks around them
 
 ## Annoyances of this implementation

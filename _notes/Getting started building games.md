@@ -49,6 +49,20 @@ I've heard about [MIT App Inventor](https://appinventor.mit.edu/), but it's enti
 
 [Godot](https://godotengine.org/) is another solid contender — it recently got rid of the no-code parts of it because they probably ran into a GameMaker'ish situation that they weren't making the engine more approachable. The engine itself, however, is solid enough that it's picked for serious game production, while being, again, free & open-source. It even has a decent system for asset distribution found in more prominent commercial game engines like Unity and Unreal — which may be more to your liking, but be sure to check the "fine print" they will impose on your game should you pick them.
 
+If you already had or have acquired some actual basic programming skills, [the book "Game Programming Patterns" by Bob Nystrom](https://gameprogrammingpatterns.com/) may help you bring more structure into your code. Once you actually *have* the code you need to tidy up. Do *not* set out trying to make everything perfect from the start, as that will have you spend infinite time producing even the first iteration.
+
+##### "An apple pie from scratch"
+
+> If you wish to make an apple pie from scratch, you must first invent the universe
+>
+> — Carl Sagan
+
+Some especially technically-minded folks sometimes make fun of users of simpler game engines for not investing their time into learning "something better". What they usually forget about is that they've themselves already invested the time, and therefore often underestimate how much there was and that others may be reluctant to do the same for an activity they might shortly drop.
+
+Some especially extreme characters even insist you learn how to build a game engine of your own. Which _can_ be useful, as it helps acquire skills to produce a game that's light on player machines' resources, but it's also effort spent not building and designing the game itself. Consider your priorities.
+
+I've seen a few such folks in the community around GameMaker, which was at the time mostly beginner-oriented, but has since grown to include a good number of advanced features and a multitude of user-developed extensions, making it a lot more capable than it was back then. Some notable games produced with it include [Undertale](https://undertale.com/) and [Loop Hero](https://loophero.com/).
+
 #### Assets
 
 🧠 Mind you, you **don't** want highest quality from the start. You need just enough to keep working on the game. As the game evolves, you will very likely want to change the style of it, but you probably want something working to try the styles out on. Also, going for realism isn't necessarily the best choice: it's expensive both to produce and run, ages quickly and does not stand out (and is actually one of my main [[Videogame woes]]).
@@ -60,5 +74,12 @@ I've heard about [MIT App Inventor](https://appinventor.mit.edu/), but it's enti
 🎶 Good royalty-free music can be difficult to find. One composer I'm aware of that [offers nice royalty-free music](https://incompetech.com/music/royalty-free/music.html) is Kevin McLeod. If you insist on being part of that production process, you could try generating melodies in [Abundant Music](https://pernyblom.github.io/abundant-music/), exporting as MIDI and importing them into [LMMS](https://lmms.io/) or [SunVox](https://www.warmplace.ru/soft/sunvox/).
 
 None of these tools are by any means special or mandatory in any way. They're just easy enough to pick up for someone not immersed into any of the respective crafts. And they don't magically give magnificent results, so if you are already accustomed to certain tools in any of the above areas, feel free to keep using those.
+
+## See also
+
+- Game design:
+  - [Adam Millard - The Architect of Games](https://www.youtube.com/@ArchitectofGames)
+  - [Mark Brown - Game Maker's Toolkit](https://www.youtube.com/@GMTK)
+  - [Three Hundred Mechanics](https://www.squidi.net/three/) and [Three Hundred Prototypes](https://www.squidi.net/threep/) by Sean Howard
 
 > [[FAQ]]

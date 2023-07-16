@@ -10,12 +10,19 @@ I'm sad about the state of the videogame industry today. [[Be the change you wan
 - Be mindful of the monetization model
   - For single-player games: no payments outside of the initial purchase (be it of the base game or DLCs)
   - For multi-player games: no payments outside of the initial purchase or fixed pay-to-play subscription (I don't really play anything that requires a subscription anymore)
+- See whether the game in question uses invasive technology that requests effective full control over a system, like anti-cheat systems, it's a serious [[Security advice|security threat]] in capability
+- See whether the game employs advanced DRM schemes like Denuvo
+  - They're a performance hog, so far the only claims to the contrary come from the devs behind it, 3rd-party outlets tend to confirm the difference; amusingly, this results in pirates having a better experience than legitimate customers
+  - They severely limit what you can do with the game, by design: getting in the way of preservation and modding
+    - Search for games becoming unplayable due to their DRMs rendered inoperable
 
 ## General grievances
 
 - Graphics has developed deep into diminishing returns for the end consumer, both in terms of gaming hardware (PC GPUs, memory, disk space, consoles) and game production (engines, assets, development time)
+  - See the explosion of BattleBit Remastered after the release of Battlefield 2042 — practically the same genre, massive gameplay intersections, but with potato-level graphical fidelity
+  - See ULTRAKILL's almost religious following: it put an even more aggressive and fast-paced spin on DOOM-like (2016 reboot) already aggressive and fast-paced weapon-swapping FPS combat, but features PS1-level graphics
 - Brand/franchise loyalty is immense and every franchise is perceived as something so unique that nothing else can fill its role adequately — which is not true, but games are difficult to dissect in order to find alternatives
-- Games becoming abandonware shortly after release is a widely accepted phenomenon, with the alternative approaches mostly being either remasters or games-as-a-service; older games are rarely patched to support later systems
+- Games becoming abandonware shortly (a few years) after release is a widely accepted phenomenon, with the alternative approaches mostly being either remasters or games-as-a-service; older games are rarely patched to support later systems
 
 ## Game consoles
 

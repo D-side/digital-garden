@@ -99,6 +99,7 @@ Sadly, it has no feedback on, say, whether it's on. Although this can be added u
 * Aqara cube is attached to the most frequently used actions (lights mostly)
     * With a stock ZigBee gateway it only outputs gestures.
     * When attached to something open like a ZigBee USB Stick paired with [ZigBee2MQTT](https://www.zigbee2mqtt.io/), it also ouputs a side it lands on at the end of the gesture. This, hypothetically allows the cube to have "modes", where gestures like moves, rotations and taps cause different effects depending on which side the cube is on. Unfortunately, it's very easy for the "virtual" side to go out of sync with the "real" side — picking up a cube, waving it in the air for a while and putting it down on another side without performing any gesture in particular does not report a change of side.
+    * Was eventually pushed out by infinitely more flexible voice control — though still gets used sometimes, as a backup
 
 # Algorithms
 

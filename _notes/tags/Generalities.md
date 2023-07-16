@@ -1,5 +1,4 @@
 ---
-featured: true
 ---
 
 This page **previously** documented a bunch of philosophical principles I often use. I've since found a much more useful source of writeups on these subjects: [RationalWiki](https://rationalwiki.org/), that not only documents what I had here in more detail and provides examples, but also indicates when "rules of thumb" can be *wrong* — something I did not go into much detail about, but still very important.

@@ -21,3 +21,7 @@ On more technical topics:
 * Again on the problem of manpages often being a dry list of all options – utilities like `navi`, `cheat` and `tldr` provide common uses of many utilities in form of complete commands
 * **Zeal** is a documentation browser, inspired by Dash, thar allows you to browse many documentation websites offline at full speed, at the expense of some disk space, although with modern disks this is hardly a huge concern
 * [AlternativeTo](https://alternativeto.net/) often helps with finding alternatives to various software products, with probably the most common use case being finding an free and/or open-source replacement for something
+
+---
+
+When publishing knowledge of your own, if at all possible, [[Put the info where you need it|find a place and format that allows making informed use of said knowledge as quickly as possible]].

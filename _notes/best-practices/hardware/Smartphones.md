@@ -24,5 +24,8 @@ Usually somewhat expensive. Tends to be bright and rich in color.
 
 Consumes wildly different amounts of power depending on what's on the display. Power users sometimes specifically choose "true black" themes with pure black backgrounds because these leave most of the pixels **completely off**. Due to this effect, it's typical for devices with this type of screen to be capable of displaying some "idle information", like brief notification previews or current time without waking up the device.
 
-### IPS and similar
+#### IPS and similar
+
 A popular type of LCD known for being color-accurate even when viewed from extreme angles. Power consumption depends mostly on brightness of the backlight, which needs to be on for anything on the screen to be visible.
+
+Sadly, the need for backlight at all times means that the display isn't that great at displaying darker grays and blacks — the backlight still produces a mild glow. Some bigger screens employ "local dimming" that dims/disables backlight in regions of the screen known to be currently dark, but I have not yet seen this technology on phones.

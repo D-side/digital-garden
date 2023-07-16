@@ -1,6 +1,5 @@
 ---
 title: FAQ
-featured: true
 ---
 
 aka Frequently Asked Questions

@@ -42,7 +42,7 @@ By and large it's additional stress that wears people down
 
 * Wasted resources (time, money, etc.)
     * Can refer to resources spent skipping an ad, getting less "bang for the buck" than was otherwise possible, etc.
-        * Videogame industry is particularly plagued by this, with games barely evolving gameplay-wise and often releasing in an unstable state (due to widely available online update mechanisms game-breaking bugs are no longer *that* dangerous), but requiring ever increasing hardware power (mostly GPUs) and steadily increasing in price
+        * [[Videogame woes|Videogame industry is particularly plagued by this]], with games barely evolving gameplay-wise and often releasing in an unstable state (due to widely available online update mechanisms game-breaking bugs are no longer *that* dangerous), but requiring ever increasing hardware power (mostly GPUs) and steadily increasing in price
 * Active fear of missing out (on promotions, availability, etc.) that can turn into feeling of guilt when an arbitrary timer runs out
     * Many scams commonly employ "creating a sense of urgency" to boost their success rate, but use of this technique isn't limited to just scammers
 * Stress out of annoyance
