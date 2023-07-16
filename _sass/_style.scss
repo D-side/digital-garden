@@ -50,8 +50,12 @@ blockquote {
   background: $color-box-background;
   border-radius: $border-radius;
 
-  p {
-    margin: 0;
+  p:first-child {
+    margin-top: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
   }
 }
 
