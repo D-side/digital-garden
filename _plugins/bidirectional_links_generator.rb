@@ -19,32 +19,37 @@ class BidirectionalLinksGenerator < Jekyll::Generator
         ).gsub('_', ' ').gsub('-', ' ').capitalize
 
         # Replace double-bracketed links with label using note title
-        # [[A note about cats|this is a link to the note about cats]]
+        # [[A note about cats#Section|this is a link to the note about cats]]
         current_note.content = current_note.content.gsub(
-          /\[\[#{title_from_filename}\|(.+?)(?=\])\]\]/i,
-          "<a class='internal-link' href='#{note_potentially_linked_to.url}'>\\1</a>"
-        )
+          /\[\[#{title_from_filename}(#[^\|\]]*)?\|(.+?)(?=\])\]\]/i
+        ) do
+          "<a class='internal-link' href='#{note_potentially_linked_to.url}#{kramdown_anchor($1)}'>#{$2}</a>"
+        end
 
         # Replace double-bracketed links with label using note filename
-        # [[cats|this is a link to the note about cats]]
+        # [[cats#Section|this is a link to the note about cats]]
         current_note.content = current_note.content.gsub(
-          /\[\[#{note_potentially_linked_to.data['title']}\|(.+?)(?=\])\]\]/i,
-          "<a class='internal-link' href='#{note_potentially_linked_to.url}'>\\1</a>"
-        )
+          /\[\[#{note_potentially_linked_to.data['title']}(#[^\|\]]*)?\|(.+?)(?=\])\]\]/i
+        ) do
+        "<a class='internal-link' href='#{note_potentially_linked_to.url}#{kramdown_anchor($1)}'>#{$2}</a>"
+      end
 
         # Replace double-bracketed links using note title
-        # [[a note about cats]]
+        # [[a note about cats#Section]]
         current_note.content = current_note.content.gsub(
-          /\[\[(#{note_potentially_linked_to.data['title']})\]\]/i,
-          "<a class='internal-link' href='#{note_potentially_linked_to.url}'>\\1</a>"
-        )
+          /\[\[(#{note_potentially_linked_to.data['title']})(#[^\|\]]*)?\]\]/i
+        ) do
+          "<a class='internal-link' href='#{note_potentially_linked_to.url}#{kramdown_anchor($2)}'>#{$1}</a>"
+        end
 
         # Replace double-bracketed links using note filename
-        # [[cats]]
+        # [[cats#Section]]
         current_note.content = current_note.content.gsub(
-          /\[\[(#{title_from_filename})\]\]/i,
+          /\[\[(#{title_from_filename})(#[^\|\]]*)?\]\]/i,
           "<a class='internal-link' href='#{note_potentially_linked_to.url}'>\\1</a>"
-        )
+        ) do
+          "<a class='internal-link' href='#{note_potentially_linked_to.url}#{kramdown_anchor($2)}'>#{$1}</a>"
+        end
       end
 
       # At this point, all remaining double-bracket-wrapped words are
@@ -104,6 +109,22 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       .delete(' ')
       .to_i(36)
       .to_s
+  end
+
+  # Reproduces the fragment part of an anchored link from the original heading
+  # as seen in the link like [[Page#Section]]; generating the destination id
+  # using the same rules as Kramdown, which generates actual heading ids.
+  def kramdown_anchor(anchor)
+    return "" unless anchor
+    # loosely adapted from Kramdown::Converter::Base::basic_generate_id
+    # via https://github.com/gettalong/kramdown/blob/master/lib/kramdown/converter/base.rb
+    id = anchor[1..-1]
+    id.gsub!(/^[^a-zA-Z]+/, '')
+    id.tr!('^a-zA-Z0-9 -', '')
+    id.tr!(' ', '-')
+    id.downcase!
+
+    "##{id}"
   end
 end
 
