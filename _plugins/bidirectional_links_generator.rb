@@ -23,7 +23,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
         current_note.content = current_note.content.gsub(
           /\[\[#{title_from_filename}(#[^\|\]]*)?\|(.+?)(?=\])\]\]/i
         ) do
-          "<a class='internal-link' href='#{note_potentially_linked_to.url}#{kramdown_anchor($1)}'>#{$2}</a>"
+          "<a class=\"internal-link\" href=\"#{note_potentially_linked_to.url}#{kramdown_anchor($1)}\">#{$2}</a>"
         end
 
         # Replace double-bracketed links with label using note filename
@@ -31,7 +31,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
         current_note.content = current_note.content.gsub(
           /\[\[#{note_potentially_linked_to.data['title']}(#[^\|\]]*)?\|(.+?)(?=\])\]\]/i
         ) do
-        "<a class='internal-link' href='#{note_potentially_linked_to.url}#{kramdown_anchor($1)}'>#{$2}</a>"
+        "<a class=\"internal-link\" href=\"#{note_potentially_linked_to.url}#{kramdown_anchor($1)}\">#{$2}</a>"
       end
 
         # Replace double-bracketed links using note title
@@ -39,16 +39,16 @@ class BidirectionalLinksGenerator < Jekyll::Generator
         current_note.content = current_note.content.gsub(
           /\[\[(#{note_potentially_linked_to.data['title']})(#[^\|\]]*)?\]\]/i
         ) do
-          "<a class='internal-link' href='#{note_potentially_linked_to.url}#{kramdown_anchor($2)}'>#{$1}</a>"
+          "<a class=\"internal-link\" href=\"#{note_potentially_linked_to.url}#{kramdown_anchor($2)}\">#{$1}</a>"
         end
 
         # Replace double-bracketed links using note filename
         # [[cats#Section]]
         current_note.content = current_note.content.gsub(
           /\[\[(#{title_from_filename})(#[^\|\]]*)?\]\]/i,
-          "<a class='internal-link' href='#{note_potentially_linked_to.url}'>\\1</a>"
+          "<a class=\"internal-link\" href=\"#{note_potentially_linked_to.url}\">\\1</a>"
         ) do
-          "<a class='internal-link' href='#{note_potentially_linked_to.url}#{kramdown_anchor($2)}'>#{$1}</a>"
+          "<a class=\"internal-link\" href=\"#{note_potentially_linked_to.url}#{kramdown_anchor($2)}\">#{$1}</a>"
         end
       end
 
@@ -58,10 +58,10 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       current_note.content = current_note.content.gsub(/\[\[(.*)\]\]/i) do |s| # match on the remaining double-bracket links
         Jekyll.logger.warn("Link replacement: link #{s} has no destination in: #{current_note.basename}")
         <<~HTML.chomp    # replace with this HTML (\\1 is what was inside the brackets)
-          <span title='There is no note that matches this link.' class='invalid-link'>
-            <span class='invalid-link-brackets'>[[</span>
+          <span title="There is no note that matches this link." class="invalid-link">
+            <span class="invalid-link-brackets">[[</span>
             #{s}
-            <span class='invalid-link-brackets'>]]</span></span>
+            <span class="invalid-link-brackets">]]</span></span>
         HTML
       end
     end
@@ -69,8 +69,10 @@ class BidirectionalLinksGenerator < Jekyll::Generator
     # Identify note backlinks and add them to each note
     all_notes.each do |current_note|
       # Nodes: Jekyll
+      matcher = /"#{Regexp.escape(current_note.url)}(#[^"]+)?"/
       notes_linking_to_current_note = all_notes.filter do |e|
-        e.content.include?("\'#{current_note.url}\'")
+        # e.content.include?("\"#{current_note.url}\"")
+        e.content.match?(matcher)
       end
 
       # Nodes: Graph
