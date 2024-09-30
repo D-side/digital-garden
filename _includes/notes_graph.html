@@ -1,7 +1,7 @@
 <h2 id="map-title">🗺 Map <span style="float: right;"><span id="zoom-reset">🔄</span> <span id="zoom">1.00</span></span></h2>
 <style>
   .links line {
-    stroke: #edc3ae;
+    stroke: #ab6a47;
     opacity: 0.5;
   }
 
@@ -179,13 +179,13 @@
       .forceSimulation(nodesData)
       .force("forceX", d3.forceX().x(width / 2).strength(centerForceStrength))
       .force("forceY", d3.forceY().y(height / 2).strength(centerForceStrength))
-      .force("charge", d3.forceManyBody().strength(-3000))
+      .force("charge", d3.forceManyBody().strength(-4000))
       .force(
         "link",
         d3
           .forceLink(linksData)
           .id((d) => d.id)
-          .distance(60)
+          .distance(150)
           .strength(1)
       )
       .stop();
