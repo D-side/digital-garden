@@ -12,7 +12,7 @@ The repository description at the time of writing is as follows:
 
 > A concept of a federated skilltree for tracking skills: for self-assessment, self-improvement, skillset representation and exchange
 
-I still can't add much to this. Although I doubt all of these features will see active use in the end, I believe the *ability* to diverge towards any of these, should the need arise, is essential.
+Although I doubt all of these features will see active use in the end, I believe the *ability* to diverge towards any of these, should the need arise, is essential.
 
 In a way, it's going to be a "meta-tool", as in a tool that powers other tools usable more directly. This can also allow the development to be more iterative (not that it's been very helpful, as I've been unable to allocate any significant development time to the project anyway).
 
@@ -42,4 +42,6 @@ Also in 2020 and till mid-2021 I've been exploring [[ActivityPub]] and the poten
 
 In 2021 I found some more uses for similar abstractions, collectively dubbing them [[Redo list]].
 
-Implementation at the time of writing is still not started.
+By January 2023 I had a decent implementation plan.
+
+In 2024 I've had [a lengthy conversation in `#project-ideas` in FUTO foundation's chatroom](https://chat.futo.org/#narrow/stream/38-project-ideas/topic/Managing.20knowledge.20like.20software.20packages) (requires signup to view).

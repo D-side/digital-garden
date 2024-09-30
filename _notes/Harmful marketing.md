@@ -26,7 +26,7 @@ Some things on this page may sound like I'm "judging poor people". But I do unde
 
 I have an off-the-charts beef with this.
 
-A good chunk of the advertisement industry today seems to be hell-bent on getting consumers into bad deals through various manipulative tactics. These tactics usually involve making us feel emotionally "bad" for not carrying out their intended action. Damage from individual cases isn't really noticeable (when it is so blatant, the add is less effective), but it adds up over time. Tricks may vary from half-truths to exploitation of widespread mental issues (need for validation, [ludomania](https://en.wikipedia.org/wiki/Problem_gambling)).
+A good chunk of the advertisement industry today seems to be hell-bent on getting consumers into bad deals through various manipulative tactics. These tactics usually involve making us feel emotionally "bad" for not carrying out their intended action. Damage from individual cases isn't really noticeable (when it is so blatant, the ad is less effective), but it adds up over time. Tricks may vary from half-truths to exploitation of widespread mental issues (need for validation, [ludomania](https://en.wikipedia.org/wiki/Problem_gambling)).
 
 Misleading advertising is resorted to only because it's *effective* and because manipulation is hard to prove, thus reputational damage to the object of advertisement is minimal even in the vast majority of cases — emotional impact is quite hard to define in technical terms and thus hard to prove in court and hold the manipulating party accountable.
 
@@ -58,8 +58,8 @@ But people can be more resistant to their techniques when they know what these t
 * Account for brands in your selection process
     * Avoid positive bias (assignment of a "plus") solely because a brand is familiar
         * This doesn't mean you shouldn't associate a brand with anything positive at all, but don't let this association lose its ground in specific likeable traits, which would turn it into liking a brand *in general* — and the brand in question may lose these traits as time goes on
-    * Employ *negative* bias (assignment of a "minus") for goods that use copious amounts of advertising
-        * It may be seen as a little bit extreme, but it's one way to counter familiarity with a brand that formed just through it being all over the place, since it's *very* hard to consciously spot
+    * Employ *negative* bias in your assessments for goods that use copious amounts of advertising
+        * It might seem irrational, but it's one way to counter irrational familiarity with a brand that emerges just through it being all over the place, since it's *very* hard to consciously spot (fight fire with fire?); if you _can_ consciously spot it, good, you don't need this technique
 * Avoid frequenting places with ads
     * Yes, this includes major social networks of today, all of them; consider [[Fediverse]] if you're open to that itch being scratched in another way
 * Use ad blockers where necessary

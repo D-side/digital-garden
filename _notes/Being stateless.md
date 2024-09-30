@@ -5,7 +5,9 @@ The practice of reducing the exclusive invovlement of something stateful in life
 
 ## Human mind
 
-I was raised in an environment where using my brain was a virtue, relying on anything but one's own memory was perceived as a weakness and frowned upon. It's a slight exaggeration, but conveys the message. However, this sentiment focuses too much on a human brain's *potential* abilities: the intention is to bring them out through needing them, but trying to do so "at any cost" is a harmful affair. Humans are inherently different from each other and what worked on one may not work on the other.
+I was raised in an environment where using my brain was a virtue, relying on anything but one's own memory was perceived as a weakness and frowned upon. Okay, it's an exaggeration of the actual message, but only a slight one.
+
+This sentiment focuses too much on a human brain's *potential* abilities: the intention is to bring them out through needing them, but trying to do so "at any cost" is a harmful affair. Humans are inherently different from each other and what worked for one may not work for the other.
 
 Augmenting one's thought process with external means, like notes, automation and delegation to others, allows a weaker mind to achieve greater goals.
 

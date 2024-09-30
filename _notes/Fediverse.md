@@ -2,15 +2,15 @@
 featured: true
 ---
 
-[Fediverse](https://fediverse.party/) is a *federated* social network comprised of a number of different software projects interoperating through the use of [[ActivityPub]] federation protocol.
+[Fediverse](https://fediverse.party/) is a *federated* (I'll explain what that means further down) social network comprised of a number of different software projects communicating with each other using [[ActivityPub]] federation protocol.
 
 Compared to some of the more widely adopted social networks it distributes ownership of the network across many parties (invididuals and organizations) and resists concentration of control in the hands of major players.
 
 ## Structure
 
-It's federated, which means that it runs off of a fleet of different servers owned by different parties and in different jurisdictions, possibly not affiliated with each other and not even interacting.
+It's federated, which means that it runs on many different servers owned by different parties and in different jurisdictions, possibly not affiliated with each other and not even interacting.
 
-This may sound strange. How is it a single network then? Well, it not necessarily is one. We recognize the global internet, but the exact same technologies and software can power completely separate local networks (look up Havana Street Network or SNET in Cuba, [or here's one decent source](https://restofworld.org/2020/the-life-and-death-of-snet-havanas-alternative-internet/)). Same here.
+This may sound strange. How is it a single network then? Well, it not necessarily *is* one. We recognize the global internet, but the exact same technologies and software can power completely separate local networks, like your router when the internet connection dies or local community networks (e. g. look up Havana Street Network or SNET in Cuba, [or here's one decent source](https://restofworld.org/2020/the-life-and-death-of-snet-havanas-alternative-internet/)). The same is true here, and isolated (or mostly isolated) sets of servers are sometimes referred to as "constellations".
 
 The easiest way to contrast this approach to that of centralized social networks is to compare "who hosts your content".
 
@@ -50,29 +50,47 @@ Particularly, members of that "trust circle" are much less likely to conspire ag
 
 The unusual decentralized structure does possibly result in some duplicate moderation work being done on different servers, but because every server processes only its own content and subscriptions, that increase in moderation effort is not so drastic and is easily compensated by the number of moderators smaller communities can afford to have.
 
-Fediverse touts itself as **"censorship-free"**. This is as true as it probably technically can be: there are no global rules since everyone gets to choose where their content is originally hosted. However, others may choose to stop receiving content they consider inappropriate. The scope of such "stops" can span from individual accounts to, less frequently, entire communities.
+Fediverse touts itself as **"censorship-free"**. This is as true as it probably technically can be: there are no global rules since everyone gets to choose where their content is originally hosted. However, everyone is also free to choose to stop receiving or hosting content they consider inappropriate. The scope of such "stops" can span from individual accounts to, less frequently, entire communities.
 
-I have seen someone accuse [Gargron (creator of Mastodon, the microblogging segment of Fediverse)](https://mastodon.social/@Gargron) of censorship on "his network". I'm not sure they were trying to badmouth the network or genuinely didn't understand how it works. Could be both!
+I have seen someone accuse [Gargron (creator of Mastodon, the microblogging segment of Fediverse)](https://mastodon.social/@Gargron) of censorship on "his network". I'm not sure they were trying to badmouth the network in bad faith or genuinely didn't understand how it works. Could be both!
 
 > Public Service Announcement: **The Right to Free Speech** means the government can't arrest you for what you say. It doesn't mean that anyone else has to listen to your bullshit, or host you while you share it. The 1<sup>st</sup> Amendment doesn't shield you from criticism or consequences. If you're yelled at, boycotted, have your show canceled, or get banned from an Internet community, your free speech rights aren't being violated. It's just that the people listening think you're an asshole, And they're showing you the door.
 >
-> — [xkcd: Free Speech](https://xkcd.com/1357/)
+> *(semi-hidden title text)* I can't remember where I heard this, but someone once said that defending a position by citing free speech is sort of the ultimate concession; you're saying that the most compelling thing you can say for your position is that it's not literally illegal to express.
+>
+> — [xkcd #1357: Free Speech](https://xkcd.com/1357/)
 
-This turned into a common accusation of Fediverse in general as a network where censorship is even stronger. There is _some_ truth to that, meaning that it _allows_ the existence of communities with extreme censorship.
+This turned into a common accusation of Fediverse in general as a network, that censorship on it is even stronger. There is _some_ truth to that, meaning that it _allows_ the existence of communities with *extreme* censorship. It sounds bad, but we're talking about an *ability* here, not a restriction.
 
-But that's only a piece of the picture. Because there are other communities as well. Because it allows full range of gatekeeping, including the very extremes, it turns into a tool that _directly_ reflects the intent of the people running the show. The key is in _choosing_ said people. That's something you cannot do in centralized networks at all, and chances are you don't at all know the people "chosen" there.
+It allows full range of gatekeeping, including the very extremes, it turns into a tool that _directly_ reflects the intent of the people running the show. The key is in _choosing_ said people. That's something you cannot do in centralized networks at all, and chances are you don't at all know the people "chosen" there.
 
-And I especially find hilarious the attempts at building "censorship-resistant" networks (most recently, Nostr) with the intent to use that as a leverage to surpass Fediverse. One thing these projects seem to forget that censorship is a tool that, perhaps counterintuitively, has good uses. Consider spam, for instance. You'd prefer to not see it, right? Well, then it just happens to be the kind of censorship you **want**.
+And I especially find hilarious the attempts at building "censorship-resistant" networks (most recently, Nostr) with the intent to use that as a leverage to surpass the Fediverse. One thing these projects seem to forget that censorship is a tool that, perhaps counterintuitively, has good uses. Consider spam, for instance. You'd prefer to not see it, right? Well, then it just happens to be the kind of censorship you **want**.
 
-What I'm saying is that moderation and censorship ultimately rely on the exact same tools, so crippling or impeding one does the same to the other. The difference is in perspective. If you agree with something being taken out of your view, you'll consider that proper moderation. If you don't, you'll think it's censorship.
+What I'm saying is that moderation and censorship ultimately rely on the exact same tools, so crippling or impeding one does the same to the other. The difference is perspective. If you agree with something being taken out of your view, you'll consider that proper moderation. If you don't, you'll think it's censorship. Simple as that.
+
+### `#fediblock`
+
+One controversial phenomenon on Fediverse is a hashtag `#fediblock` which was probably originally intended for communicating bad actors between instances. And sometimes it works as such.
+
+But it's still just a simple hashtag that anyone can send messages into. So it's still up to moderators to actually verify the validity of the accusations (whether the purported violation is against their specific rules, whether the evidence is real, whether the evidence actually backs up the accusations).
+
+But, being open, Fediverse allows anyone can become a moderator, doesn't matter whether they're cut out for the job or not. And not all are. Some just don't have and don't bother acquiring the respective skills, some have mental issues that trigger a trauma response to some topics, and some are on their server only by themselves and don't have to abide by anything but their infrastructure's terms (e. g. hosting company, domain registrar, rules of their TLD, etc.).
+
+And so some just trust the accusations blindly, especially if the violation is around a topic of particular interest to them. Some especially purist moderators even go as far as demanding that whoever *they* defederate (stop communicating with) others around them must also defederate, lest they get defederated by said purists in response. One especially popular piece of wording among them is "federates with the usual suspects". IIRC, someone made "the usual suspects" into an actual instance name as a practical joke, though I'm having trouble finding it now (help?).
 
 ### Hybrids
 
-There are some occurrences in the wild that somehow seem to combine the traits of centralized and federated networks in unexpected ways.
+There are some occurrences in the wild that combine the traits of centralized and federated networks in unexpected ways.
 
 When [Bryan Lunduke suggested publishing his Twitter banlist](https://www.youtube.com/watch?v=mZrlEulss6Q&t=10m25s) I started to wonder what implications would such "crowdsourced moderation" have with proper support from the platform. Well, in Fediverse there is really no other way to do it without compromising the independence of federation's participants. In Twitter, however, this approach still assumes agreement with all of the Twitter moderators' decisions.
 
 Google tried to make its own push for centralized moderation of federated networks by [threatening to force Fediverse clients out of its store](https://qoto.org/@freemo/104765288863293481) on grounds of them allegedly "promoting violence" (in reality, for not taking an active stance against it or ceasing to do so). It was rightfully ridiculed for doing so, most hilarious extension of this policy being the necessity to also take down Google Chrome and GMail (the apps), that allow access to unmoderated content, which would imply that Google has to moderate the entire World Wide Web and e-mail networks.
+
+### Gab
+
+[«Decentralized Social Networks vs. the Trolls» by Derek Caelin (28 minutes)](https://www.youtube.com/watch?v=yZoASOyfvGQ) «…explores how admins and activists across the Fediverse worked over a year to isolate and reject the far-right social network Gab when it joined in June 2019.»
+
+Since I wasn't on the Fediverse yet when it happened, I can't offer my own perspective on these events, but from the outside this to me looks like a serious trial by fire for Fediverse's moderation structure. And it appears to have worked.
 
 ## Interoperability
 
@@ -127,7 +145,28 @@ In practice however, [as of mid-2023](https://github.com/mastodon/mastodon/discu
 This allows server administrators to post on behalf of their users.  
 Consequently, one workaround for the issue is hosting your own instance and being your own administrator.
 
-One horror story circling the network is [an FBI raid of Kolektiva](https://kolektiva.social/@admin/110637031574056150) where the unencrypted database presumably ended up in the hands of the FBI, including the signing keys. And yup, the signing keys of everyone there are pretty much in possession of the FBI. Not necessarily ready for impersonation, but pretty close. If any implementations do not double-check incoming content against the origin, they should. [Mastodon, to my knowledge, **does**.](https://github.com/mastodon/mastodon/blob/71db616fed817893d0efa363f0e7dbfcf23866a0/app/lib/activitypub/activity.rb#L114)
+One horror story circling the network is [an FBI raid of Kolektiva](https://kolektiva.social/@admin/110637031574056150) where the unencrypted database presumably ended up in the hands of the FBI, including the signing keys. And yup, the signing keys of everyone there are pretty much in possession of the FBI. Not necessarily ready for impersonation, but pretty close. If any implementations do not double-check incoming content against the origin, they should. [Mastodon, to my knowledge, *does*.](https://github.com/mastodon/mastodon/blob/71db616fed817893d0efa363f0e7dbfcf23866a0/app/lib/activitypub/activity.rb#L114)
 
 Make no mistake, I consider this a serious issue.  
-But it's not with the protocol and doesn't justify inventing another protocol.
+I just don't think it's with the protocol, so it doesn't justify inventing another protocol — and one that isn't even compatible with others, so this isn't even an [xkcd #927 "How standards proliferate"](https://xkcd.com/927/) situation.
+
+## Personal take
+
+### "Bad" engagement
+
+The reason I've abandoned or trimmed down to near-uselessness most of the popular social networks of today is, oddly enough, engagement — something most product managers I know would consider good. And it usually is — for them and the company they work for, but for the user? Eh, not necessarily.
+
+Since pretty much all of them monetize through advertisement, they have an interest in maximizing users' engagement. This has a whole bunch of effects I'm not happy with.
+
+#### Artificial over organic
+
+The engagement on these popular platforms is heavily manipulated through artifical factors, like ads and recommendation metrics. This makes organic growth much less reliable. Something that could feasibly send shockwaves in a comparable "physical social" setting might not do so on engagement-based platforms. Virality often happen as a result of "gaming" a recommendation algorithm, which is often the case on YouTube. [Some platforms like Steam even recognize this and to that end don't offer ad spots.](https://www.pcgamer.com/valve-doesnt-sell-ad-space-on-steam-so-it-can-make-room-for-surprise-hits-we-dont-think-steam-should-be-pay-to-win/)
+
+#### Annoying notifications
+
+One particular engagement manipulation technique, through notifications, I just find *annoying*. It's usually opt-out, and opt-out is difficult or impossible short of turning off even the useful kinds of notifications, which diminishes the value of the platform for me and is obviously supposed to trick me into reconsidering, that maybe I should leave on even notifications that I don't need. I'm quite certain that some product managers working on these platforms do this *knowingly*, this is okay as far as their ethics are concerned, and they get to impose their own ethics on their users thanks to the network effect.
+
+#### Cultivation of anger
+
+One rumor I keep hearing (and, admittedly, spread a bit), borderline conspiracy theory, is that recommendation algorithms that maximize engagement inevitably gravitate towards stressing people out, angering them, riling them up — because it works for the set goal of increased engagement. [xkcd #386 "Duty Calls"](https://xkcd.com/386/) (from all the way back [in 2008](https://explainxkcd.com/wiki/index.php/386:_Duty_Calls)), famous for the phrase "someone is *wrong* on the internet", is a great concise cultural showcase of this.
+

@@ -1,10 +1,10 @@
 ---
-title: Indifferentism
+title: Centrism
 ---
 
-> ⚠️ **Content warning:** some subjects of the page are thoroughly riddled with bright [propaganda](/knowledge-graph#propaganda) that has people raging and preaching all over the networks and sometimes offline.
+> ⚠️ **Content warning:** some subjects of the page are thoroughly riddled with bright [[Knowledge graph#Propaganda|propaganda]] that has people raging and preaching all over the networks and sometimes offline.
 > 
-> While I do try to approach the issue with a cool head, I'm bound to upset somebody who happens to have already adopted a conflicting system of values. Amusingly, this would very likely happen regardless of the views I hold. Some consider this to be an indication of strength of their beliefs, a point of pride. I consider that folly out of arrogance and inclination to oversimplify.
+> While I do try to approach the issue with a cool head, I'm bound to upset somebody who happens to have already adopted a system of values that conflicts with my own. Amusingly, this would very likely happen regardless of the views I hold, as no two people are alike. Some consider this to be an indication of strength of their beliefs, a point of pride. I consider that folly out of arrogance and inclination to oversimplify.
 > 
 > Proceed with caution. If you can't, [navigate away from this page elsewhere **right now**](/map).
 >
@@ -16,17 +16,17 @@ I often very much want people to care **less** about things. Especially things t
 
 I have a complicated relationship with politics. I haven't found myself to be in agreement with any specific political movement. Many of them have strong points, but get very slippery as the same principles are applied indiscriminately across the entire political landscape. Not by everyone, but by sufficiently many that make arguments for their favorite political direction.
 
-I've found that much of what I prefer value-wise can be labeled "moderation", in the very literal sense of the word, a process of being moderate, pushing people to care less. Because from what I can tell, the most distress is caused by people aggressively pushing beliefs that aren't even theirs — but rather prevalent in their social circles.
+I've found that much of what I prefer value-wise can be labeled "moderation", in the very literal sense of the word, a process of being moderate, pushing people to care less. Because from what I can tell, the most distress is caused by people aggressively pushing beliefs that *aren't even theirs* — but prevalent in their social circles or picked up on a whim from a source that *looked* trustworthy enough.
 
-It is a somewhat nihilistic position grounded in rational reasoning that helps [[Mental health|minimize stress]] in interactions with people. Which some would call selfish, like that has to be a bad thing.
+It is a somewhat nihilistic position grounded in rational reasoning that helps [[Mental health|minimize stress]] in interactions with people. Which some would call selfish, in a very literal sense of the word — for the benefit of "self", with no negative connotations intended. (…because over the years the word "selfish" became synonymous with "too selfish" for whatever the speaker wishes to claim to be a shared value.)
 
-## The word
+## Centrism
 
-I dubbed this approach "indifferentism" because it comes down to being, well, _indifferent_ about a lot of things that the society often pushed to get very agitated about. When it comes to action, there is only so much a person can be savvy in and can cause any significant impact. I think the best use of time is **picking a few areas of focus** and mostly ignoring the rest.
+This approach, when put towards just about every ideology with a name on it, turns out to pull against it. Because it happens with practically every ideology, the point being pulled towards is a center of sorts. Hence the name, centrism.
 
-Now, how many areas to pick will absolutely depend on an individual. But it's not a single choice, it's an ongoing process with areas entering and leaving the focus area as time goes on and the world around changes.
+This position makes any sorts of extreme ideologues *very* unhappy and is usually laughed at by them as "equivalent to not having an opinion at all" based purely on not wanting to hopelessly engage in a debate with them. The good news is that most of the sincere ones *aren't* extreme, are actually open to discussing specific points and acknowledge assumptions, weaknesses and trade-offs in their beliefs. These are people you can actually learn something from.
 
-I'm reasonably certain a more widespread word for this already exists, but I haven't been able to find it.
+When it comes to action, there is only so much a person can be savvy in and can cause any significant impact. I think the best use of time is **picking a few areas of focus** and mostly ignoring the rest. Now, how many areas to pick will absolutely depend on an individual. But it's not a single choice, it's an ongoing process with areas entering and leaving the focus area as time goes on and the world around changes.
 
 ## Opinions of others
 
