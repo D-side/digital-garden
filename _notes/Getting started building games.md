@@ -69,7 +69,7 @@ I've seen a few such folks in the community around GameMaker, which was at the t
 
 ✏️ If you can draw, the graphics is largely a solved issue. If you can't — well, some graphics you can get from [Kenney](https://kenney.nl/), who graciously releases (most of?) his cutesy-looking art under Creative Commons Zero, which is for most intents and purposes "public domain", meaning it's perfectly legal to do just about anything with it: use and redistribute in commercial games, modify if needed, etc. Do feel free to toss a coin in his direction though, he deserves it.
 
-🔊 Sounds you can either record (and post-process using something like [Tenacity](https://tenacityaudio.org/), in the very least removing background noise) or synthesize (e. g. with [Bfxr](https://www.bfxr.net/)). Or ignore, for starters.
+🔊 Sounds you can either record (and post-process using something like [Audacity](https://www.audacityteam.org/download/), in the very least removing background noise) or synthesize (e. g. with [Bfxr](https://www.bfxr.net/)). Or ignore, for starters.
 
 🎶 Good royalty-free music can be difficult to find. One composer I'm aware of that [offers nice royalty-free music](https://incompetech.com/music/royalty-free/music.html) is Kevin McLeod. If you insist on being part of that production process, you could try generating melodies in [Abundant Music](https://pernyblom.github.io/abundant-music/), exporting as MIDI and importing them into [LMMS](https://lmms.io/) or [SunVox](https://www.warmplace.ru/soft/sunvox/).
 

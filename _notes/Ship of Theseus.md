@@ -1,5 +1,7 @@
 ---
+title: Ship of Theseus
 ---
+
 
 A philosophical problem about the nature of identity that describes a ship and questions whether it remains the same ship even after all parts of it have been replaced, leaving nothing of the original.
 
