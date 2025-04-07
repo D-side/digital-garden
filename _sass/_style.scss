@@ -17,6 +17,7 @@ body {
   color: $color-text;
   font-size: 1rem;
   max-width: 63em;
+  background-color: #ffefaf;
 
   @media (min-width: 820px) {
     font-size: 1.2rem;
@@ -102,7 +103,8 @@ a {
 main {
   margin: 2vh 0 2vh;
   padding: 1em;
-  box-shadow: 0 0 1em #999;
+  box-shadow: .5em .5em 2em #999;
+  background-color: #ffffff;
 }
 
 nav {
@@ -203,4 +205,8 @@ a.source-link {
   &:hover {
     color: $color-subtext;
   }
+}
+
+#header {
+  font-family: monospace;
 }
