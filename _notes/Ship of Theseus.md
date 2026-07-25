@@ -18,3 +18,5 @@ It certainly keeps the *name*, which to the public eye might look like nothing's
 ## References
 
 - [Wikipedia: Ship of Theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus)
+  - > the article has been edited 1792 times. 0% of its original phrases remain. ([Wikipedia on Mastodon, 2023-12-16](https://wikis.world/@wikipedia/111587024591220062))
+

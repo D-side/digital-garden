@@ -118,9 +118,9 @@ Okay, an obvious solution to that would be splitting up the service into client 
 
 ### Protocol disparities
 
-Communication on Fediverse can be somewhat lossy. There are usually no issues when communicating between instances running the same software (e. g. Mastodon to Mastodon), but different software can have some quirks. For instance, Pleroma and its forks implement "emoji reactions" via ActivityPub's `Like` object with an additional field. Mastodon ignores that field and records it as a "favorite" in its database (commonly referred to as "like"). It still makes the favorites counter work as a measure of engagement, only missing some finer details.
+Communication on Fediverse can be somewhat lossy. There are usually no issues when communicating between instances running the same software (e. g. Mastodon to Mastodon), but different software can have some quirks. For instance, Pleroma and its forks implement "emoji reactions" via ActivityPub's `Like` object with an additional field. Mastodon ignores that field and records it as a "favorite" in its database (commonly referred to as "like"). It still makes the favorites counter work as a measure of engagement, only missing the finer details like sentiment of said engagement.
 
-I'm not saying it should be like this though. This is fair criticism. And it should eventually be fixed as projects' userbases grow and the projects themselves attract more resources.
+This should eventually be fixed as projects' userbases grow and the projects themselves attract more resources. But this also showcases decent "graceful degradation" which relieves new implementations to have everything others in the network have to offer.
 
 ### Ownership of identity
 
@@ -168,5 +168,52 @@ One particular engagement manipulation technique, through notifications, I just 
 
 #### Cultivation of anger
 
-One rumor I keep hearing (and, admittedly, spread a bit), borderline conspiracy theory, is that recommendation algorithms that maximize engagement inevitably gravitate towards stressing people out, angering them, riling them up — because it works for the set goal of increased engagement. [xkcd #386 "Duty Calls"](https://xkcd.com/386/) (from all the way back [in 2008](https://explainxkcd.com/wiki/index.php/386:_Duty_Calls)), famous for the phrase "someone is *wrong* on the internet", is a great concise cultural showcase of this.
+One rumor I keep hearing (and, admittedly, spread a bit), borderline conspiracy theory, is that recommendation algorithms that maximize user engagement inevitably gravitate towards stressing people out, angering them, riling them up — because it works for the set goal of increased engagement.
 
+[xkcd #386 "Duty Calls"](https://xkcd.com/386/) (from all the way back [in 2008](https://explainxkcd.com/wiki/index.php/386:_Duty_Calls)), famous for the phrase "someone is *wrong* on the internet", is a great concise cultural showcase of this.
+
+### Competitors
+
+You're probably going to see a shared theme in my assessments of competitors, the preference for the standard with the most existing adoption and thus momentum in the network effect — because I believe *that* is what is holding the decentralization of social networking, not so much the technical foundations.
+
+Project maturity is also a concern. And I don't mean "it's old, so it's good", it's in kinds of problems Fediverse has encountered across its history. It has gone through several major moderation scandals (the [[#Gab|Gab debacle]] being the biggest one, probably) that newer competitors are yet to battle-test their moderation tools against to find out what issues will arise in widespread use.
+
+#### BlueSky
+
+It's centralized.
+
+It _supports_ decentralization in the protocol, which is what allows it to be on this list in the first place. So the _technology_ is arguably there. What's lacking is _governance_.
+
+As `bsky.social` kept gathering users, leveraging its origins at Twitter and VC funding for massive popularity, it kept withholding open federation until it reached the size where, with its ongoing growth, its status as the center of the network is unlikely to ever be put into question.
+
+Being centralized, it also manages to do some things much better than *actually* decentralized competitors, through a clever trick of being… centralized. How well those features will keep functioning were BlueSky to become decentralized to the same extent as its competitors, we have not seen and probably never will. It does not seem to innovate much in this direction.
+
+On the technical side, I'll defer to [the great writeup by Christine Lemmer-Webber](https://dustycloud.org/blog/how-decentralized-is-bluesky/) which, in summary, praises the effort, but identifies resource choke points that impose prohibitively high resource requirements in key places (relays, for instance). The purported "credible exit" goal that BlueSky's proponents refer to is merely a shift of goalposts from _practical_ decentralization to _theoretical_ — to ensure _technological_ capability, but only that.
+
+Meanwhile a Fediverse node is (1) self-contained and fully functional by itself, (2) can be practically run on a small SBC the size of Raspberry Pi (slow as it may be), and (3) scales in consumption of resources roughly with the amount of "neighbors" (that the node talks to via subscriptions), which depends on the inhabitants of the node, not the broader network.
+
+Organization and funding of the company behind BlueSky is also suspect, it's a VC-backed social media startup, the likes of which we have seen a bunch of already. And it's bound to come into conflict of interest with its users as time goes on with no room for competition in yet another case of "enshittification".
+
+See also [why Cory Doctorow refuses to use BlueSky in its current state](https://pluralistic.net/2024/11/02/ulysses-pact/#tie-yourself-to-a-federated-mast) (from `2024-11-02`).
+
+#### Nostr
+
+It's simple, has real decentralization potential, but nowhere near easy to use which I expect to limit its adoption with wider audiences. The issues with the technology and UX are _solvable_, but by the time solutions are made the segment might already be saturated by competitors.
+
+The technology behind it is alright. It does feature a few notable improvements over ActivityPub, such as detachment of user *identities* from *locations*, which makes it easy for the user to migrate from one server to another.
+
+However, it's even more difficult to explain the workings of it to an average user, or even a tech-savvy one (I have participated in actual attempts), the apps are rather undercooked and the audience on the network leans heavily towards technology and blockchain in particular, which is a peculiar crowd that some groups of people prefer to distance from.
+
+It does not appear to me to offer substantial improvements over launching your own node on the Fediverse — and if you're a part of the demographic it appeals to, you probably have the skills for it.
+
+There is also a conspiracy theory floating around that its whole point is to be a distraction to pull development resources from more promising projects — supporters of the theory point at [support of Nostr by Jack Dorsey](https://www.forbes.com/sites/digital-assets/2024/08/30/jack-dorsey-backs-bitcoin-and-nostr-to-cut-censorship-with-free-speech/). I do not consider this to be sufficient evidence of a conspiracy, but, [to quote George Cariln, "You don't need a formal conspiracy when interests converge"](https://www.youtube.com/watch?v=XE3sYUJASLY). And growth of the Fediverse poses an _existential_ threat to existing social media giants' business models, so they certainly have the incentive to destroy it or at least slow it down.
+
+This, notably, **isn't** in any way an accusation of Nostr as a project, I sincerely believe its founders and contributors are doing useful work refining the technology. I just don't see it standing any chance at mass adoption against Fediverse at this time. As such, I believe contributions to ActivityPub to bring in Nostr's improvements can have a substantially bigger impact.
+
+#### Polycentric
+
+Technologically it's practically indistinguishable from Nostr (same network architecture of clients each publishing and reading through multiple relays, only slightly different protocols) and suffers from the same issues.
+
+#### Others
+
+I have not seen any competitors that offer substantial enough improvements overall in order to compete, but if I missed any, please let me know!

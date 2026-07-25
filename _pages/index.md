@@ -40,3 +40,4 @@ permalink: /
 
 * [📚 Glossary](/glossary)
 * [🗺 Map](/map)
+* [📜 Alphabetical index](/alphabetical)

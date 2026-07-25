@@ -1,5 +1,6 @@
 ---
 title: Security advice
+meta: true
 ---
 
 Things I recommend for keeping your data safe.

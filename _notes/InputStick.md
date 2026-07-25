@@ -7,10 +7,10 @@
 
 Apart from self-protection through encryption of the Bluetooth connection and password protection against other Bluetooth devices taking control of whatever the InputStick is plugged into, it does not come with any advanced authentication and key management features. It's just a mouse + keyboard with programmatic control.
 
-Probably the handiest part of it is the use of standard USB HID protocol, meaning it does not require drivers in pretty much all environments that support USB input.
+Probably the handiest part of it is the use of standard USB HID protocol, meaning it does not require drivers in pretty much all environments that support USB input, including, but not limited to:
 
-* This includes pre-boot environments, which are usually very limited with respect for where they can access data from, lacking even a clipboard with copy/paste operations.
-* And OS installers & recovery environments, that often do have clipboards, but feature little to no potential data sources to copy *from*.
+* **Pre-boot environments** (e. g. UEFI setup utilities): which are usually very limited with respect for where they can access data from, lacking even a clipboard with copy/paste operations.
+* **OS installers & recovery environments**: that often *do* have clipboards, but feature little to no potential data sources to copy *from*. Punching in a hard drive encryption recovery key or an OS license key is substantially easier when it's automatic.
 
 This makes InputStick a very handy tool for PC maintenance.
 

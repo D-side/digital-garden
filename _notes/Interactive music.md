@@ -57,11 +57,11 @@ I remember when I got hold of the game soundtracks split into individual instrum
 
 It was a fun experience.
 
-Although I can't really suggest any software today to give that a try, as [Ambio, the Android player I was using](https://play.google.com/store/apps/details?id=com.happyexabytes.ambio&hl=en&gl=US) is no longer maintained. You're going to have to find one if you want to give that a try today. [Audacity](https://www.audacityteam.org/) will probably work, and it's [[FOSS]].
+Although I can't really suggest any software today to give that a try, as Ambio, the Android player I was using, is so discontinued that it's even been removed from the Play Store. You're going to have to find another one if you want to give that a try today. [Audacity](https://www.audacityteam.org/) will probably work, and it's [[FOSS]].
 
 I can suggest a couple soundtracks though.
 
-* Chris Christodoulou is graciously offering his soundtracks for [Risk of Rain](https://chrischristodoulou.bandcamp.com/album/risk-of-rain-engineer-edition) and [Risk of Rain 2](https://chrischristodoulou.bandcamp.com/album/risk-of-rain-2-engineer-edition-2) broken up into **stems**, instrument groups that when put together form a complete track.
+* Chris Christodoulou is offering his soundtracks for [Risk of Rain](https://chrischristodoulou.bandcamp.com/album/risk-of-rain-engineer-edition) and [Risk of Rain 2](https://chrischristodoulou.bandcamp.com/album/risk-of-rain-2-engineer-edition-2) broken up into **stems**, instrument groups that when put together form a complete track.
 * [Auditorium by Cipher Prime Studios](https://store.steampowered.com/app/205870/Auditorium/) includes music already broken up into stems, because the gameplay relies on being able to play different stems with different volumes. You can look it up on YouTube to get a feel of what it sounds like ([progressive soundtracks](https://www.youtube.com/playlist?list=PLhtjD-9FAP5Xf_RLI3VmCGWCR0iTkMuXZ), [playthrough of my favorite act](https://www.youtube.com/watch?v=lrw1_hSXbKk)).
 
 ---

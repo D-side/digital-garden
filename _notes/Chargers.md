@@ -43,7 +43,9 @@ I focus on USB Type C support heavily. Thus, to make best use of the kit, you ma
 	* C—Lightning (x1?) — in case you own any Apple devices or have any friends come by with these
 * A AA/AAA _(AAAAAA!)_ charger for NiMH or similar batteries commonly found in gamepads and remotes
 	* ℹ Newer Xbox gamepads support a battery that replaces 2xAA and connects to internal USB charging contacts, obsoleting AA batteries
-* ☀ A folding solar panel wth USB output — if you're into the great outdoors, this might even save your bacon
+	* On rare occasions you may encounter [an AAAA type battery](https://en.wikipedia.org/wiki/AAAA_battery). If you have one of those, you'll want a charger for that too, of course. Though first make sure you have a rechargeable one. They don't seem to come with devices from factory.
+* ☀ A folding solar panel with USB output — if you're into the great outdoors, this might even save your bacon
+  * ☀ A bit extreme, but possibly a hand-cranked charger? Curiously I've only ever seen one budget model of these and it doesn't seem very reliable. There seems to be a wider assortment of those built into FM radio receivers.
 * Dust plugs: not strictly for charging, but bring that extra peace of mind (_somewhat_ improve survivability) for ports that are used very infrequently, be it charging ports or any other (like 3.5mm jack)
 
 ## Important points

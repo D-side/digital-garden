@@ -1,0 +1,26 @@
+---
+layout: page
+title: Alphabetical index
+id: alphabetical
+permalink: /alphabetical
+---
+
+<h2>📜 Alphabetical index</h2>
+
+<p>Note: this index only lists the notes, not <a href="/glossary">glossary</a> terms or topic pages.</p>
+
+{% assign notes = site.notes | where: 'meta', nil | sort: "title" %}
+{% assign previous_letter = "" %}
+
+{% for entry in notes %}
+  {% assign first_letter = entry.title | slice: 0 %}
+  {% if first_letter != previous_letter %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h3>{{first_letter}}</h3>
+    <ul>
+  {% endif %}
+
+  <li><a class="internal-link" href="{{ entry.url }}">{{ entry.title }}</a></li>
+  {% if forloop.last %}</ul>{% endif %}
+  {% assign previous_letter = first_letter %}
+{% endfor %}

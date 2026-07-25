@@ -18,7 +18,7 @@ And it doesn't just concern digital spaces, physical too:
 
 - A table of temperatures for meat is handy where you actually need that number: either next to the oven or even on the thermometer itself.
 - A reference for a keyboard layout (e. g. [this wonderful typography layout by Ilya Birman](https://ilyabirman.net/typography-layout/)) is handy next to the keyboard, maybe plastered as a sticker to the back side of it — so that it moves with the keyboard, stays out of sight when not required and actually makes use of a surface that is usually not functional.
-- Hotkeys for configuring different gamepads (e. g. Bluetooth pairing mode) are best put onto the respective gamepads — saves you and everyone else the effort of identifying which gamepad it is even if you've got the references handy, and the effort of finding the right one when you don't.
+- Hotkeys for configuring different gamepads (e. g. Bluetooth pairing mode) are best put onto the respective gamepads — saves you (and everyone else using them) the effort of identifying which gamepad it is even if you've got the references handy, and the effort of finding the right one when you don't.
 
 _(Also, if I just talked you into buying a sticker printer with this, no need to thank me and I'm sorry.)_
 
@@ -26,13 +26,15 @@ Is this just basic ergonomics? Yep.
 
 ### Detractors
 
-And various services and pieces of software keep suggesting their own quickly accessible but limited versions:
+(as in, actors distracting you from this)
+
+Various services and pieces of software keep suggesting their own quickly accessible but limited versions:
 
 * Browsers have their own bookmark store that's intended for bookmarking primarily web links.
     * It can be decent, with tags and extra notes in plain text (not *rich* text, but at least it's *something*), and often comes with synchronization across machines and even platforms, though hardwired into the browser vendor's services.
-    * Probably the only use case of it for me is for completeing addresses in the address bar. But unnecessary addresses there prove to be more of a distraction. Say, a "reading list" of links is best stored in a different place, alongside books you'd like to read. And the browser isn't the best place for referencing books, unless of course you use a web-based reader app (and these do exist).
+    * Probably the only use case of it for me is for completeing addresses in the address bar. But unnecessary addresses there prove to be more of a distraction. Say, a "reading list" of links is best stored in a different place, alongside books you'd like to read. And the browser isn't the best place for referencing books, unless of course you use web-based reader apps (which do exist).
 * Most content hubs like social networks come with bookmarking schemes of their own, but usually dead-simple and with no information other than reference to a piece of content itself. Plus, such a service usually reserves the right to analyze your interests based on your bookmarks. Also, sometimes it's implicit, like watch history on YouTube or "liked posts" list in your favorite social network.
-    * Proved more trouble than worth. Hard to import and export, do not support any notes, sorting usually isn't there, grouping sometimes is.
+    * Proved more trouble than worth. Hard to import and export, do not support any notes, sorting usually isn't there.
 * Online store wishlists and carts are actually a decent bookmarking scheme, albeit with dangers of its own: it kinda paints a marketing target on you, and from my experience, marketing doesn't always know when to stop and becomes annoying. Also, do your research when purchasing, other retailers may have a better and/or more ethical deal.
     * AliExpress is a good example of annoying marketing: adding an item to the cart (?) apparently puts you on the seller's mailing list by default, with no way to prevent that other than unsubscribing from the "promotional messages" on the "contact seller" screen after the fact. Storing a link to the item, on the other hand, does not have that effect. This unsolicited subscription should be illegal, and probably is in some jurisdictions.
     * Again, data is minimal: just a reference to a specific item. The UI usually shows the price, but only the current one, and even itlf it were to record pricing history, it couldn't be trusted because there the platform has an interest in nudging you towards a purchase.

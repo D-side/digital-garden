@@ -15,7 +15,7 @@ That's probably not what you actually want to know. It's not just a generic *"I 
 
 If it is, I give you one more chance: ask yourself **why** you want to learn to program. If nothing comes up still, I actually have a very specific and short answer for you.
 
-### **`don't`**
+### **don't**
 
 Because if you're learning something that doesn't have a purpose behind it, chances are you'll soon forget it and the time you spent learning was mostly _wasted_.
 
@@ -29,7 +29,7 @@ This is the easiest case to handle.
 
 #### Fine-tuning
 
-Got a very particular piece of hardware or software that accepts custom programs but doesn't do *exactly* what you want? Ask around, see how to get started with that particular thing. In such a specific area there is usually *one* preferred language/tool, and the comunity will likely point you in the right direction there.
+Got a very particular piece of hardware or software that accepts custom programs but doesn't do *exactly* what you want? Ask around, see how to get started with that particular thing. In such a specific area there is usually *one* preferred language/tool, and the community will likely point you in the right direction there.
 
 #### Video game
 
@@ -41,7 +41,7 @@ Depending on the game, you may not even have to get into programming to have a p
 
 If your type of game doesn't work so well as a tabletop (although a few trial runs may still be beneficial) or you're happy enough with it as a tabletop to make it real, then I guess it is time to pick a tool. There are many **game engines** out there, take your pick. But you'll be in for *a lot* of new material. You could try cutting a few corners and *building a mod for an existing game instead*, since in this scenario the bulk of the game is already built for you. Sure, a mod might not be commercially viable depending on how the developers look at things, but aiming for commercial success for your very first game is unrealistic anyway.
 
-*[[TODO]] List more common scenarios?*
+_See also [[Getting started building games]]._
 
 ### Job / money
 

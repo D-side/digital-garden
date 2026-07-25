@@ -19,6 +19,14 @@ In constructive discussions and arguments probably the only way to convince the 
 
 - If that region is bigger than you can easily convey, then it's too early for that discussion. You can provide an external source so that others can still acquire the necessary pieces without your involvement, depending on how interested the other parties are.
 
+### "Obvious in general"
+
+There is no such thing as "obvious _in general_". Someone saying a certain statement is "obvious" merely means _they_ already have all the prerequisite knowledge in order to judge it to be true.
+
+However, it's a mistake to assume that something obvious for one will be obvious for _everyone_. And discerning the missing pieces can be difficult thanks to [the curse of knowledge](https://en.wikipedia.org/wiki/Curse_of_knowledge) that makes it difficult for someone who knows any given thing to relate to someone who doesn't know that.
+
+As math teachers at the school where I learned used to say, "the hardest thing to prove is the obvious". Because the goal of such an exercise, despite the name, isn't _proof_, but _discerning internalized knowledge_ that the proof would be based on.
+
 ### Propaganda
 
 A form of propaganda I have often seen involves deliberately building a region of knowledge graph _disconnected_ from the target audience's own experiences. They can still follow associations on that graph in their head and that can sometimes enough to trick them into thinking that graph has enough consistency to it to believe it and make decisions based on it.

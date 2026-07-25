@@ -4,6 +4,8 @@ title: KeePass
 
 KeePass is a piece of software for password management, which is not very interesting by itself, but its successors *very much* are. It can handle passwords, two-factor authentication, SSH keys, file attachments and pretty much any data where you only want to access one individual entry at a time.
 
+> 📝 [[TODO]] Both implementations of KeePass have markedly improved since this writeup. In particular, passkeys are now fully supported. Android version, unfortunately, only works in recent versions of Android (14+?)
+
 ## KeePassXC (desktop)
 
 [Project website](https://keepassxc.org/) | [Manual](https://keepassxc.org/docs/KeePassXC_UserGuide.html)
@@ -20,11 +22,14 @@ A particularly handy chunk of features is around *presentation* of your database
 
 ### Two-factor authentication
 
-It handles two-factor authentication based on time-based one-time passwords (TOTP).
+It handles two-factor authentication (2FA) based on time-based one-time passwords (TOTP).
 
-[[Security advice]] One could argue that this defeats the purpose of two-factor authentication, when passwords are stored alongside TOTP.
+> The concept is simple: a service generates a random "secret" and shows it to you, you add it to a TOTP generator, and that generator generates short numeric codes based on the obtained secret and current time. By providing these codes you prove you have the secret without providing it directly, exposing it to possible eavesdrops.
 
-While I agree, I still consider this a major improvement over just password: it still prevents most attacks based on credential reuse because of TOTP changing over time, adds to complexity of passwords making even rather simple passwords much more robust. Plus, just the use of password manager on its own makes maintaining of **unique** passwords across services markedly easier. The impact that "true 2FA" brings to the table is negligible compared to using a password manager that also handles 2FA.
+[[Security advice]] One could argue that this defeats the purpose of two-factor authentication, when passwords are stored alongside TOTP. I disagree.
+
+- You don't have to keep them in the same database or even on the same devices.
+- Even with one database, I still consider this a major improvement *over just a password*, it still prevents most attacks based on credential reuse because of TOTP changing over time and significantly hardening security even with simple passwords. Plus, just the use of password manager on its own makes maintaining of **unique** passwords across services markedly easier. The impact that "true 2FA" brings to the table is vastly smaller (though still significant) compared to using a password manager that also handles 2FA.
 
 That said, there are a few accounts where I still use "true 2FA", where a secret is actually stored in a separate place which is not directly connected to where I input the code. I log into these accounts so rarely that I can go through the trouble of obtaining the secret from another place.
 
@@ -52,8 +57,8 @@ In a nutshell, SSH agents allow you to keep an SSH key **encrypted** on-disk wit
 KeePassXC can add and remove keys with an SSH agent running on a system whenever the respective KP database is unlocked or locked. It can do so in two ways:
 
 * When the key is an external password-protected file located somewhere near the database, KeePass can unlock it using a password of the same entry.
-* When the key is an [attachment](#files), it can even be kept unprotected, but can be protected too, in which case it will be unlocked using the password of the same entry.
-  * [[Security advice]] I would generally recommend protecting the attachment anyway, even if the file doesn't normally leave the database. Because you may need to export it outside for use without an SSH agent, and rescinding decryption unconditionally is a drastic step down in security; even if you later password-protect the file, the unprotected version may stay on-disk indefinitely, even if no longer referenced by the file system. If you trust a system enough, you can strip protection manually afterwards, understanding the risks.
+* When the private key file is an [attachment](#files), it is protected by encryption of the database file. For direct use (e. g. via SSH agent) further encryption is probably redundant. However, if a tool you intend to use requires a key *file*, this is not an option.
+  * [[Security advice]] I would generally recommend protecting the attached key file with a passphrase anyway, in case you'll want to *export* it. It gives you more flexibility with the level of trust you have in the system: whether you trust it to keep your sensitive files unencrypted on disk or not. Because as soon as an unencrypted key is saved to disk at any point, its traces can remain in the file system for a long time. If you trust the system enough, you can strip the passphrase with an extra step.
 
 See also [[KeePassXC in WSL2]] for a story on getting it to work in an unusual environment.
 

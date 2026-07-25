@@ -37,11 +37,11 @@ Where supported, *use it*: emphasis can often be used to reflect what would othe
 
 Can both add to the structure of the text and to its tone:
 
-- **«Fancier» “quotes”** can slighly change the perception of their contents compared to the usual ones or help with nesting quotes inside other quotes without hurting legibility (NB: typographers might want to hurt me for promoting such misuse of quoting styles, but it works)
+- **«Fancier» “quotes”** can slighly change the perception of their contents compared to the usual ones or help with nesting quotes inside other quotes without hurting legibility (NB: typographers might want to hurt me for promoting such misuse of quoting styles, but seems to work as I intend it to on just about everybody else)
 - **Repeated similar responses** can be substantiated with numbering in order to better acknowledge the other side or to highlight that the response doesn't change in light of new details added (e. g. "Ok", "Ok²"/"Ok\[2\]") — because it's both perceived slightly differently in tone and because it rules out the possibility of unintentionally sending the same message twice (which can happen with today's user interfaces and technology underneath)
 - **Parentheses** are sometimes discouraged due to the optional nature of their contents: maybe their contents don't need to be in the text at all (or be extracted into footnotes), but if they do, maybe parentheses aren't necessary and their contents should be integrated into the text
 - **Brackets of different kinds** can be used in deeply structured texts when just parentheses can be difficult to pair with their counterparts (such as when nesting \[like this\])
-- **Semicolons** are so often forgotten "higher-level" alternatives to commas that allow separation of chunks that's "heavier" than through commas but "lighter" than separating into different sentences
+- **Semicolons** are so often forgotten "higher-level" alternatives to commas that allow separation of chunks that's "heavier" than through commas but "lighter" than splitting up into separate sentences
 
 There are probably other creative ways of using punctuation as well.
 

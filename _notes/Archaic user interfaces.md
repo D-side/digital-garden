@@ -46,7 +46,7 @@ Some have tried! There's [[Node-RED]] for instance, that attempts to package dat
 
 And it allows extension by way of installing additional libraries that contain more node types, and some node types can be developed within NodeRED itself.
 
-TODO: what's good about it, message channels
+TODO: what's good about it, message channels, other instances (DaVinci Resolve's compositing, Blender's geometry nodes)
 
 ## The economic incentive
 
